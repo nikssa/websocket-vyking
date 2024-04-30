@@ -194,3 +194,9 @@ Create a payout animated sliding component that displays the following informati
 You can use Node version 20.12.2 and Yarn for project setup.
 This code already contains a working Websocket and specifies the structure.
 
+**Login credentials:**
+```
+Username: vyking.test
+Password: test1234
+Recovery email: vyking.test@vyking.com
+```
