@@ -10,4 +10,12 @@
   img {
     height: 40px;
   }
+
+  .user {
+    display: flex;
+    align-items: center;
+    span {
+      margin-right: 10px;
+    }
+  }
 }

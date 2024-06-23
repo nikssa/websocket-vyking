@@ -1,0 +1,71 @@
+.payout-wrapper {
+  --height: 4rem;
+  background-color: #162a4c;
+  border-radius: calc(var(--height) * 0.5);
+  display: flex;
+  flex-wrap: nowrap;
+  align-items: center;
+  margin: 2rem;
+  height: var(--height);
+  width: calc(100% - 4rem);
+}
+
+.payout-title {
+  font-weight: 500;
+  padding: 1rem 0.5rem 1rem 2rem;
+  text-transform: uppercase;
+}
+
+.payout-container {
+  padding: 1rem;
+  overflow: hidden;
+  position: relative;
+}
+
+.payout {
+  display: flex;
+  width: 100%;
+  overflow: hidden;
+  white-space: nowrap;
+}
+
+.payout-track {
+  display: flex;
+  animation: marquee 20s linear infinite;
+}
+
+.payout-item {
+  display: inline-block;
+  font-size: 1.2rem;
+  margin-right: 20px;
+  color: #fff;
+
+  span {
+    margin-right: 3px;
+
+    &.player {
+      margin-right: 10px;
+    }
+
+    &.green {
+      color: green;
+    }
+  }
+}
+
+.up-arrow {
+  background-image: url('data:image/svg+xml,<svg focusable="false" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path fill="green" d="M16.59 8.59L12 13.17 7.41 8.59 6 10l6 6 6-6z"></path></svg>');
+  display: inline-block;
+  height: 16px;
+  width: 16px;
+  transform: rotateZ(180deg);
+}
+
+@keyframes marquee {
+  0% {
+    transform: translateX(0);
+  }
+  100% {
+    transform: translateX(-50%);
+  }
+}

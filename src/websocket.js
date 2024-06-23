@@ -4,8 +4,12 @@ import {
   websocketDisconnect,
   websocketError,
   websocketLogin,
-  websocketMessage
+  websocketLogout,
+  websocketMessage,
+  websocketPayouts
 } from './store/actions/websocketActions';
+
+import store from './store/store';
 
 class WebSocketService {
   static instance = null;
@@ -58,17 +62,30 @@ class WebSocketService {
   }
 
   handleMessage(data) {
+    const error = store.getState().websocket.error;
+
     const parsedData = JSON.parse(data);
     // console.log('handleMessage', parsedData);
+
     if (parsedData.event === '/se/player/login' && parsedData.status === 200) {
       this.dispatch(websocketLogin(parsedData));
+    }
+    if (parsedData.event === '/se/player/logout' && parsedData.status === 200) {
+      this.dispatch(websocketLogout());
     }
     if (parsedData.status !== 200) {
       this.dispatch(websocketError(parsedData));
     }
-    if (parsedData.status === 200) {
+    if (parsedData.status === 200 && !!error) {
       this.dispatch(websocketClearError());
     }
+    if (
+      parsedData.event === '/se/payment/withdraw/bigSub' &&
+      parsedData.status === 200
+    ) {
+      this.dispatch(websocketPayouts(parsedData));
+    }
+
     this.dispatch(websocketMessage(parsedData));
   }
 

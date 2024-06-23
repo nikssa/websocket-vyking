@@ -2,6 +2,7 @@ const initialState = {
   user: null,
   isConnected: false,
   messages: [],
+  payouts: [],
   error: null
 };
 
@@ -24,6 +25,8 @@ export default function websocketReducer(state = initialState, action) {
       };
     case 'WEBSOCKET_LOGOUT':
       return { ...state, user: null };
+    case 'WEBSOCKET_PAYOUTS':
+      return { ...state, payouts: action.payload };
     default:
       return state;
   }

@@ -17,7 +17,7 @@ const validatePassword = (password) => {
   return '';
 };
 
-function LoginModal({ isOpen, onClick, onForgotPasswordClick }) {
+function LoginModal({ onClick, onForgotPasswordClick, handleLogin }) {
   //
   const [formData, setFormData] = useState({ username: '', password: '' });
   const [usernameError, setUsernameError] = useState(null);
@@ -26,19 +26,12 @@ function LoginModal({ isOpen, onClick, onForgotPasswordClick }) {
   const [isPasswordVisible, setIsPasswordVisible] = useState(false);
 
   useEffect(() => {
-    if (usernameError !== null || passwordError !== null) {
+    if (usernameError !== null && passwordError !== null) {
       const isDisabled = !!usernameError || !!passwordError;
+      console.log('isDisabled', isDisabled);
       setIsDisabled(isDisabled);
     }
   }, [usernameError, passwordError]);
-
-  const handleSubmit = (e) => {
-    e.preventDefault();
-    const { username, password } = formData;
-    console.log('username', username);
-    console.log('password', password);
-    // TODO: send login request
-  };
 
   const handleChange = (e) => {
     e.preventDefault();
@@ -52,80 +45,85 @@ function LoginModal({ isOpen, onClick, onForgotPasswordClick }) {
     }
   };
 
+  const handleSubmit = (e) => {
+    e.preventDefault();
+    const { username, password } = formData;
+    handleLogin(username, password);
+    // setFormData({ username: '', password: '' });
+  };
+
   const handleRegister = (e) => {
     e.preventDefault();
     console.log('Redirect to register page');
   };
 
   return (
-    <div className={`modal-wrapper ${isOpen ? 'open' : ''}`}>
-      <div className='modal login'>
-        <div className='close'>
-          <button onClick={onClick} className='close-button'>
-            X
-          </button>
+    <div className='modal login'>
+      <div className='close'>
+        <button onClick={onClick} className='close-button'>
+          X
+        </button>
+      </div>
+      <div className='logo'>
+        <img src={Logo} alt='Vyking logo' />
+      </div>
+      <form onSubmit={handleSubmit}>
+        {usernameError && (
+          <span className='error-message'>{usernameError}</span>
+        )}
+        <div className='username'>
+          <label htmlFor='username'>Username or Email *</label>
+          <input
+            type='text'
+            name='username'
+            id='username'
+            placeholder='Enter here'
+            value={formData.username}
+            onChange={handleChange}
+          />
         </div>
-        <div className='logo'>
-          <img src={Logo} alt='Vyking logo' />
-        </div>
-        <form onSubmit={handleSubmit}>
-          {usernameError && (
-            <span className='error-message'>{usernameError}</span>
-          )}
-          <div className='username'>
-            <label htmlFor='username'>Username or Email *</label>
+
+        {passwordError && (
+          <span className='error-message'>{passwordError}</span>
+        )}
+        <div className='password'>
+          <div className='field'>
+            <label htmlFor='password'>Password *</label>
             <input
-              type='text'
-              name='username'
-              id='username'
+              type={isPasswordVisible ? 'text' : 'password'}
+              name='password'
+              id='password'
               placeholder='Enter here'
-              value={formData.username}
+              value={formData.password}
               onChange={handleChange}
             />
           </div>
-
-          {passwordError && (
-            <span className='error-message'>{passwordError}</span>
-          )}
-          <div className='password'>
-            <div className='field'>
-              <label htmlFor='password'>Password *</label>
-              <input
-                type={isPasswordVisible ? 'text' : 'password'}
-                name='password'
-                id='password'
-                placeholder='Enter here'
-                value={formData.password}
-                onChange={handleChange}
-              />
-            </div>
-            <div
-              className='eye-icon'
-              onClick={() => setIsPasswordVisible(!isPasswordVisible)}>
-              {isPasswordVisible ? <EyeCrossed /> : <Eye />}
-            </div>
+          <div
+            className='eye-icon'
+            onClick={() => setIsPasswordVisible(!isPasswordVisible)}>
+            {isPasswordVisible ? <EyeCrossed /> : <Eye />}
           </div>
-
-          <a href='/' onClick={onForgotPasswordClick}>
-            Forgot Password?
-          </a>
-
-          <button
-            type='submit'
-            title={isDisabled ? 'Form data is not valid' : 'Login'}
-            disabled={isDisabled ? 'disabled' : ''}>
-            Login
-          </button>
-        </form>
-
-        <div className='register'>
-          <p>
-            Don't have an account?{' '}
-            <a href='/' onClick={handleRegister}>
-              Join now
-            </a>
-          </p>
         </div>
+
+        <a href='/' onClick={onForgotPasswordClick}>
+          Forgot Password?
+        </a>
+
+        <button
+          type='submit'
+          title={isDisabled ? 'Form data is not valid' : 'Login'}
+          disabled={isDisabled ? 'disabled' : ''}>
+          Login
+        </button>
+      </form>
+
+      <div className='register'>
+        <p>
+          Don't have an account?{' '}
+          <a href='/' onClick={handleRegister}>
+            Join now
+          </a>
+        </p>
       </div>
     </div>
   );

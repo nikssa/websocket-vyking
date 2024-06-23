@@ -5,11 +5,15 @@ import WebSocketService from './websocket';
 import Header from './components/Header';
 import LoginModal from './components/LoginModal';
 import ForgotPasswordModal from './components/ForgotPasswordModal';
+import Payout from './components/Payout';
+import { ToastContainer, toast } from 'react-toastify';
+import 'react-toastify/dist/ReactToastify.min.css';
 import './App.scss';
 
 function App() {
-  const { messages } = useSelector((state) => state.websocket);
-  console.log('messages', messages);
+  // const { user, error } = useSelector((state) => state.websocket);
+  const { error } = useSelector((state) => state.websocket);
+
   const dispatch = useDispatch();
   const websocketInstance = WebSocketService.getInstance(dispatch);
 
@@ -23,7 +27,6 @@ function App() {
 
   const [isOpen, setIsOpen] = useState(false);
   const [isLogin, setIsLogin] = useState(true);
-  // const [isUser, setIsUser] = useState(false);
 
   const handleClick = () => {
     setIsOpen((prev) => !prev);
@@ -32,67 +35,95 @@ function App() {
 
   const handleForgotPasswordClick = (e) => {
     e.preventDefault();
-    console.log('handleForgotPasswordClick');
+
     setIsLogin(false);
     setIsOpen(true);
   };
 
-  const handleFakeLogin = (e) => {
-    e.preventDefault();
-    console.log('Fake login');
-
+  const handleLogin = (username, password) => {
+    console.log('handleLogin username: ', username, ',password: ', password);
     websocketInstance.sendMessage({
       event: '/ce/player/login',
       payload: {
-        cUsername: 'vyking.test',
-        cPassword: md5('test1234') // '16d7a4fca7442dda3ad93c9a726597e4'
+        cUsername: username, // 'vyking.test'
+        cPassword: md5(password) // md5('test1234') => '16d7a4fca7442dda3ad93c9a726597e4'
       }
     });
+    setIsOpen(false);
   };
 
-  const requestData = () => {
-    console.log('Fake request data after login');
+  const handleLogout = () => {
+    console.log('handleLogout');
     websocketInstance.sendMessage({
-      event: '/ce/payment/withdraw/bigSub',
+      event: '/ce/player/logout',
       payload: []
     });
   };
 
+  const handleForgotPassword = (email) => {
+    console.log('handleForgotPassword email: ', email);
+    websocketInstance.sendMessage({
+      event: '/ce/player/pwdResetByEmailRequest',
+      payload: {
+        cEmail: email,
+        cLink: 'https://demo.vyking.com'
+      }
+    });
+    setIsOpen(false);
+  };
+
+  useEffect(() => {
+    const toastConfiguration = {
+      position: 'top-right',
+      autoClose: 10000,
+      hideProgressBar: false,
+      closeOnClick: true,
+      pauseOnHover: true,
+      draggable: true,
+      progress: undefined,
+      theme: 'colored',
+      type: 'error'
+      // transition: Slide
+    };
+    toast(error?.payload?.message, toastConfiguration);
+  }, [error]);
+
+  const readyState = websocketInstance.socketRef?.readyState;
+
+  useEffect(() => {
+    // const isUser = !!user;
+    // if (isUser) {
+    // console.log('isUser', isUser);
+    if (readyState === WebSocket.OPEN) {
+      websocketInstance.sendMessage({
+        event: '/ce/payment/withdraw/bigSub',
+        payload: []
+      });
+    }
+  }, [readyState, websocketInstance]);
+
   return (
     <div className='App'>
-      <div className='modal-wrapper'></div>
-      <Header onClick={handleClick} />
-
-      {isLogin ? (
-        <LoginModal
-          isOpen={isOpen}
-          onClick={handleClick}
-          onForgotPasswordClick={handleForgotPasswordClick}
-        />
-      ) : (
-        <ForgotPasswordModal isOpen={isOpen} onClick={handleClick} />
-      )}
-
-      <button onClick={handleFakeLogin}>Fake login</button>
-      <button onClick={requestData}>Fake request data after login</button>
-
-      {/* <main>
-        <h1>Messages</h1>
-        {!!messages && messages.length > 0 && (
-          <ul className='messages'>
-            {messages.map((message, index) => {
-              const messageString = JSON.stringify(message);
-              return (
-                <li
-                  style={{ wordWrap: 'break-word' }}
-                  key={`${messageString}-${index}`}>
-                  {messageString}
-                </li>
-              );
-            })}
-          </ul>
+      <ToastContainer />
+      <div className={`modal-wrapper ${isOpen ? 'open' : ''}`}>
+        {isLogin ? (
+          <LoginModal
+            onClick={handleClick}
+            onForgotPasswordClick={handleForgotPasswordClick}
+            handleLogin={handleLogin}
+          />
+        ) : (
+          <ForgotPasswordModal
+            onClick={handleClick}
+            handleForgotPassword={handleForgotPassword}
+          />
         )}
-      </main> */}
+      </div>
+
+      <Header onClick={handleClick} handleLogout={handleLogout} />
+      <main>
+        <Payout />
+      </main>
     </div>
   );
 }
