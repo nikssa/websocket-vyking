@@ -25,6 +25,8 @@ function App() {
     };
   }, [dispatch, websocketInstance]);
 
+  const readyState = websocketInstance.socketRef?.readyState;
+
   const [isOpen, setIsOpen] = useState(false);
   const [isLogin, setIsLogin] = useState(true);
 
@@ -41,7 +43,6 @@ function App() {
   };
 
   const handleLogin = (username, password) => {
-    console.log('handleLogin username: ', username, ',password: ', password);
     websocketInstance.sendMessage({
       event: '/ce/player/login',
       payload: {
@@ -53,7 +54,6 @@ function App() {
   };
 
   const handleLogout = () => {
-    console.log('handleLogout');
     websocketInstance.sendMessage({
       event: '/ce/player/logout',
       payload: []
@@ -61,7 +61,6 @@ function App() {
   };
 
   const handleForgotPassword = (email) => {
-    console.log('handleForgotPassword email: ', email);
     websocketInstance.sendMessage({
       event: '/ce/player/pwdResetByEmailRequest',
       payload: {
@@ -74,7 +73,7 @@ function App() {
 
   useEffect(() => {
     const toastConfiguration = {
-      position: 'top-right',
+      position: 'top-center',
       autoClose: 10000,
       hideProgressBar: false,
       closeOnClick: true,
@@ -87,8 +86,6 @@ function App() {
     };
     toast(error?.payload?.message, toastConfiguration);
   }, [error]);
-
-  const readyState = websocketInstance.socketRef?.readyState;
 
   useEffect(() => {
     // const isUser = !!user;
@@ -105,6 +102,7 @@ function App() {
   return (
     <div className='App'>
       <ToastContainer />
+
       <div className={`modal-wrapper ${isOpen ? 'open' : ''}`}>
         {isLogin ? (
           <LoginModal
@@ -121,6 +119,7 @@ function App() {
       </div>
 
       <Header onClick={handleClick} handleLogout={handleLogout} />
+
       <main>
         <Payout />
       </main>

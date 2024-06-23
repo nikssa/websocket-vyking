@@ -8,57 +8,62 @@
   margin: 2rem;
   height: var(--height);
   width: calc(100% - 4rem);
-}
 
-.payout-title {
-  font-weight: 500;
-  padding: 1rem 0.5rem 1rem 2rem;
-  text-transform: uppercase;
-}
+  .payout-title {
+    font-weight: 700;
+    padding: 1rem 0.5rem 1rem 2rem;
+    text-transform: uppercase;
+  }
 
-.payout-container {
-  padding: 1rem;
-  overflow: hidden;
-  position: relative;
-}
+  .payout-container {
+    padding: 1rem;
+    overflow: hidden;
+    position: relative;
 
-.payout {
-  display: flex;
-  width: 100%;
-  overflow: hidden;
-  white-space: nowrap;
-}
+    .payout {
+      display: flex;
+      width: 100%;
+      overflow: hidden;
+      white-space: nowrap;
 
-.payout-track {
-  display: flex;
-  animation: marquee 20s linear infinite;
-}
+      .payout-track {
+        display: flex;
+        animation: marquee 20s linear infinite;
 
-.payout-item {
-  display: inline-block;
-  font-size: 1.2rem;
-  margin-right: 20px;
-  color: #fff;
+        .payout-item {
+          color: #fff;
+          display: flex;
+          align-items: center;
+          font-size: 1.2rem;
+          font-weight: 500;
+          margin-right: 1rem;
 
-  span {
-    margin-right: 3px;
+          span {
+            display: inline-block;
+            margin-right: 3px;
 
-    &.player {
-      margin-right: 10px;
-    }
+            &.player {
+              border-left: 1px solid #2c3964;
+              margin-right: 1rem;
+              padding-left: 1rem;
+            }
 
-    &.green {
-      color: green;
+            &.green {
+              color: green;
+            }
+          }
+
+          .up-arrow {
+            background-image: url('data:image/svg+xml,<svg focusable="false" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path fill="green" d="M16.59 8.59L12 13.17 7.41 8.59 6 10l6 6 6-6z"></path></svg>');
+            display: inline-block;
+            height: 16px;
+            width: 16px;
+            transform: rotateZ(180deg);
+          }
+        }
+      }
     }
   }
-}
-
-.up-arrow {
-  background-image: url('data:image/svg+xml,<svg focusable="false" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path fill="green" d="M16.59 8.59L12 13.17 7.41 8.59 6 10l6 6 6-6z"></path></svg>');
-  display: inline-block;
-  height: 16px;
-  width: 16px;
-  transform: rotateZ(180deg);
 }
 
 @keyframes marquee {

@@ -28,7 +28,6 @@ function LoginModal({ onClick, onForgotPasswordClick, handleLogin }) {
   useEffect(() => {
     if (usernameError !== null && passwordError !== null) {
       const isDisabled = !!usernameError || !!passwordError;
-      console.log('isDisabled', isDisabled);
       setIsDisabled(isDisabled);
     }
   }, [usernameError, passwordError]);
@@ -54,7 +53,7 @@ function LoginModal({ onClick, onForgotPasswordClick, handleLogin }) {
 
   const handleRegister = (e) => {
     e.preventDefault();
-    console.log('Redirect to register page');
+    console.log('Redirect to Register page');
   };
 
   return (

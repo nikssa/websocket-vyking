@@ -63,9 +63,7 @@ class WebSocketService {
 
   handleMessage(data) {
     const error = store.getState().websocket.error;
-
     const parsedData = JSON.parse(data);
-    // console.log('handleMessage', parsedData);
 
     if (parsedData.event === '/se/player/login' && parsedData.status === 200) {
       this.dispatch(websocketLogin(parsedData));
@@ -83,7 +81,16 @@ class WebSocketService {
       parsedData.event === '/se/payment/withdraw/bigSub' &&
       parsedData.status === 200
     ) {
-      this.dispatch(websocketPayouts(parsedData));
+      /**
+       *  Sort the data by the 'ts' property in descending order
+       */
+      const payloadSortedDesc = parsedData.payload.sort(
+        (a, b) => new Date(b.ts).getTime() - new Date(a.ts).getTime()
+      );
+
+      this.dispatch(
+        websocketPayouts({ ...parsedData, payload: payloadSortedDesc })
+      );
     }
 
     this.dispatch(websocketMessage(parsedData));
