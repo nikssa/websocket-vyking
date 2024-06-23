@@ -1,4 +1,4 @@
-import React, { useEffect, useState } from 'react';
+import { useEffect, useState } from 'react';
 import { useDispatch, useSelector } from 'react-redux';
 import md5 from 'md5';
 import WebSocketService from './websocket';
@@ -23,7 +23,7 @@ function App() {
 
   const [isOpen, setIsOpen] = useState(false);
   const [isLogin, setIsLogin] = useState(true);
-  const [isUser, setIsUser] = useState(false);
+  // const [isUser, setIsUser] = useState(false);
 
   const handleClick = () => {
     setIsOpen((prev) => !prev);
@@ -45,7 +45,7 @@ function App() {
       event: '/ce/player/login',
       payload: {
         cUsername: 'vyking.test',
-        cPassword: md5('test123') // '16d7a4fca7442dda3ad93c9a726597e4'
+        cPassword: md5('test1234') // '16d7a4fca7442dda3ad93c9a726597e4'
       }
     });
   };
@@ -58,18 +58,10 @@ function App() {
     });
   };
 
-  const handleLogout = () => {
-    console.log('handleLogout');
-  };
-
   return (
     <div className='App'>
       <div className='modal-wrapper'></div>
-      <Header
-        isUser={isUser}
-        onClick={handleClick}
-        handleLogout={handleLogout}
-      />
+      <Header onClick={handleClick} />
 
       {isLogin ? (
         <LoginModal

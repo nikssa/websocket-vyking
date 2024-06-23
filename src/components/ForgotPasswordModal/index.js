@@ -1,27 +1,25 @@
-import React, { useEffect, useState } from 'react';
+import { useState } from 'react';
 import PasswordRecovery from '../../assets/password-recovery.svg';
 import './style.scss';
+
+const validateEmail = (email) => {
+  const emailRegex = /^[^\s@]+@[^\s@]+\.[^\s@]+$/;
+  if (!emailRegex.test(email)) {
+    return 'Invalid email format.';
+  }
+  return '';
+};
 
 function ForgotPasswordModal({ isOpen, onClick }) {
   //
   const [email, setEmail] = useState('');
-  const [isDisabled, setIsDisabled] = useState(true);
-  const [isEmailValid, setIsEmailValid] = useState(false);
+  const [emailError, setEmailError] = useState(null);
+  const isDisabled = emailError === null || emailError;
 
-  useEffect(() => {
-    const isDisabled = !isEmailValid;
-    setIsDisabled(isDisabled);
-  }, [isEmailValid]);
-
-  const handleEmailChange = (e) => {
-    const email = e.target.value;
+  const handleChange = (e) => {
+    const { value: email } = e.target;
     setEmail(email);
-
-    if (email.length > 0) {
-      setIsEmailValid(true);
-    } else {
-      setIsEmailValid(false);
-    }
+    setEmailError(validateEmail(email));
   };
 
   const handleSubmit = (e) => {
@@ -46,6 +44,8 @@ function ForgotPasswordModal({ isOpen, onClick }) {
           password.
         </p>
         <form onSubmit={handleSubmit}>
+          {!!emailError && <span className='error-message'>{emailError}</span>}
+
           <div className='email'>
             <label htmlFor='email'>Email *</label>
             <input
@@ -54,7 +54,7 @@ function ForgotPasswordModal({ isOpen, onClick }) {
               id='email'
               placeholder='Enter here'
               value={email}
-              onChange={handleEmailChange}
+              onChange={handleChange}
             />
           </div>
 

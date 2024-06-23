@@ -10,7 +10,11 @@ export const websocketLogin = (message) => ({
   payload: message
 });
 
+export const websocketLogout = () => ({ type: 'WEBSOCKET_LOGOUT' });
+
 export const websocketError = (message) => ({
   type: 'WEBSOCKET_ERROR',
   payload: message
 });
+
+export const websocketClearError = () => ({ type: 'WEBSOCKET_CLEAR_ERROR' });

@@ -18,21 +18,12 @@ export default function websocketReducer(state = initialState, action) {
     case 'WEBSOCKET_CLEAR_ERROR':
       return { ...state, error: null };
     case 'WEBSOCKET_LOGIN':
-      console.log('WEBSOCKET_LOGIN', action.payload.payload);
-      const payload = action.payload.payload;
       return {
         ...state,
-        user: {
-          id: payload.iID,
-          firstName: payload.cFirstName,
-          lastName: payload.cLastName,
-          name: payload.cUsername,
-          email: payload.cEmail,
-          phone: payload.cPhone1,
-          domain: payload.cDomain,
-          birthday: payload.dBirthday
-        }
+        user: action.payload
       };
+    case 'WEBSOCKET_LOGOUT':
+      return { ...state, user: null };
     default:
       return state;
   }

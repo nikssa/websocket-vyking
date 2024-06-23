@@ -1,57 +1,60 @@
-import React, { useEffect, useState } from 'react';
+import { useEffect, useState } from 'react';
 import Logo from '../../assets/logo.svg';
 import { ReactComponent as Eye } from '../../assets/eye.svg';
 import { ReactComponent as EyeCrossed } from '../../assets/eye-with-line.svg';
 import './style.scss';
 
+const validateUsername = (username) => {
+  if (username.length < 4) {
+    return 'Username must be at least 4 characters long.';
+  }
+  return '';
+};
+const validatePassword = (password) => {
+  if (password.length < 4 || password.length > 16) {
+    return 'Password must be 4 to 16 characters long.';
+  }
+  return '';
+};
+
 function LoginModal({ isOpen, onClick, onForgotPasswordClick }) {
   //
-  const [username, setUsername] = useState('');
-  const [password, setPassword] = useState('');
-
+  const [formData, setFormData] = useState({ username: '', password: '' });
+  const [usernameError, setUsernameError] = useState(null);
+  const [passwordError, setPasswordError] = useState(null);
+  const [isDisabled, setIsDisabled] = useState(true);
   const [isPasswordVisible, setIsPasswordVisible] = useState(false);
 
-  const [isDisabled, setIsDisabled] = useState(true);
-  const [isUsernameValid, setIsUsernameValid] = useState(false);
-  const [isPasswordValid, setIsPasswordValid] = useState(false);
-
   useEffect(() => {
-    const isDisabled = !(isUsernameValid && isPasswordValid);
-    setIsDisabled(isDisabled);
-  }, [isUsernameValid, isPasswordValid]);
+    if (usernameError !== null || passwordError !== null) {
+      const isDisabled = !!usernameError || !!passwordError;
+      setIsDisabled(isDisabled);
+    }
+  }, [usernameError, passwordError]);
 
-  const handleLoginSubmit = (event) => {
-    event.preventDefault();
-    const form = event.target;
-    const formData = new FormData(form);
-    const username = formData.get('username');
-    const password = formData.get('password');
-    console.log('Login', { username, password });
-  };
-
-  const handleJoin = (e) => {
+  const handleSubmit = (e) => {
     e.preventDefault();
-    console.log('handleJoin');
+    const { username, password } = formData;
+    console.log('username', username);
+    console.log('password', password);
+    // TODO: send login request
   };
 
-  const handleUsernameChange = (e) => {
-    const username = e.target.value;
-    setUsername(username);
-    if (username.length > 0) {
-      setIsUsernameValid(true);
-    } else {
-      setIsUsernameValid(false);
+  const handleChange = (e) => {
+    e.preventDefault();
+    const { name, value } = e.target;
+    setFormData({ ...formData, [name]: value });
+
+    if (name === 'username') {
+      setUsernameError(validateUsername(value));
+    } else if (name === 'password') {
+      setPasswordError(validatePassword(value));
     }
   };
 
-  const handlePasswordChange = (e) => {
-    const password = e.target.value;
-    setPassword(password);
-    if (password.length > 0) {
-      setIsPasswordValid(true);
-    } else {
-      setIsPasswordValid(false);
-    }
+  const handleRegister = (e) => {
+    e.preventDefault();
+    console.log('Redirect to register page');
   };
 
   return (
@@ -65,7 +68,10 @@ function LoginModal({ isOpen, onClick, onForgotPasswordClick }) {
         <div className='logo'>
           <img src={Logo} alt='Vyking logo' />
         </div>
-        <form onSubmit={handleLoginSubmit}>
+        <form onSubmit={handleSubmit}>
+          {usernameError && (
+            <span className='error-message'>{usernameError}</span>
+          )}
           <div className='username'>
             <label htmlFor='username'>Username or Email *</label>
             <input
@@ -73,11 +79,14 @@ function LoginModal({ isOpen, onClick, onForgotPasswordClick }) {
               name='username'
               id='username'
               placeholder='Enter here'
-              value={username}
-              onChange={handleUsernameChange}
+              value={formData.username}
+              onChange={handleChange}
             />
           </div>
 
+          {passwordError && (
+            <span className='error-message'>{passwordError}</span>
+          )}
           <div className='password'>
             <div className='field'>
               <label htmlFor='password'>Password *</label>
@@ -86,8 +95,8 @@ function LoginModal({ isOpen, onClick, onForgotPasswordClick }) {
                 name='password'
                 id='password'
                 placeholder='Enter here'
-                value={password}
-                onChange={handlePasswordChange}
+                value={formData.password}
+                onChange={handleChange}
               />
             </div>
             <div
@@ -112,7 +121,7 @@ function LoginModal({ isOpen, onClick, onForgotPasswordClick }) {
         <div className='register'>
           <p>
             Don't have an account?{' '}
-            <a href='/' onClick={handleJoin}>
+            <a href='/' onClick={handleRegister}>
               Join now
             </a>
           </p>

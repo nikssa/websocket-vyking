@@ -1,4 +1,5 @@
 import {
+  websocketClearError,
   websocketConnect,
   websocketDisconnect,
   websocketError,
@@ -62,8 +63,11 @@ class WebSocketService {
     if (parsedData.event === '/se/player/login' && parsedData.status === 200) {
       this.dispatch(websocketLogin(parsedData));
     }
-    if (parsedData.event === '/se/player/login' && parsedData.status === 1001) {
+    if (parsedData.status !== 200) {
       this.dispatch(websocketError(parsedData));
+    }
+    if (parsedData.status === 200) {
+      this.dispatch(websocketClearError());
     }
     this.dispatch(websocketMessage(parsedData));
   }

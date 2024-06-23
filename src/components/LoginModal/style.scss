@@ -116,6 +116,22 @@
           color: #7e8f9c;
         }
       }
+
+      input:-webkit-autofill,
+      input:-webkit-autofill:hover,
+      input:-webkit-autofill:focus,
+      input:-webkit-autofill:active {
+        -webkit-box-shadow: 0 0 0 30px #000336 inset !important;
+        -webkit-text-fill-color: #7e8f9c !important;
+        -webkit-background-clip: text;
+      }
+    }
+
+    .error-message {
+      color: #ff003b;
+      font-size: 1.2rem;
+      margin: 0 0 0.5rem;
+      padding: 0 1rem;
     }
 
     button {
