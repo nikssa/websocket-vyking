@@ -11,8 +11,8 @@
   cursor: pointer;
   transition: 0.5s box-shadow, 0.5s background-color;
 
-  &:hover{
-    box-shadow: 1px 1px 10px 3px rgba(255, 0, 59, .3);
-    background-color: rgba(255, 0, 59, .4);
+  &:hover {
+    box-shadow: 1px 1px 10px 3px rgba(255, 0, 59, 0.3);
+    background-color: rgba(255, 0, 59, 0.4);
   }
 }
