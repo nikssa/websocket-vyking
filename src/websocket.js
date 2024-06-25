@@ -65,32 +65,33 @@ class WebSocketService {
     const error = store.getState().websocket.error;
     const parsedData = JSON.parse(data);
 
-    if (parsedData.event === '/se/player/login' && parsedData.status === 200) {
-      this.dispatch(websocketLogin(parsedData));
-    }
-    if (parsedData.event === '/se/player/logout' && parsedData.status === 200) {
-      this.dispatch(websocketLogout());
-    }
-    if (parsedData.status !== 200) {
-      this.dispatch(websocketError(parsedData));
-    }
-    if (parsedData.status === 200 && !!error) {
-      this.dispatch(websocketClearError());
-    }
     if (
       parsedData.event === '/se/payment/withdraw/bigSub' &&
       parsedData.status === 200
     ) {
-      /**
-       *  Sort the data by the 'ts' property in descending order
-       */
+      //Sort the data by the 'ts' property in descending order
       const payloadSortedDesc = parsedData.payload.sort(
         (a, b) => new Date(b.ts).getTime() - new Date(a.ts).getTime()
       );
-
       this.dispatch(
         websocketPayouts({ ...parsedData, payload: payloadSortedDesc })
       );
+    }
+
+    if (parsedData.event === '/se/player/login' && parsedData.status === 200) {
+      this.dispatch(websocketLogin(parsedData));
+    }
+
+    if (parsedData.event === '/se/player/logout' && parsedData.status === 200) {
+      this.dispatch(websocketLogout());
+    }
+
+    if (parsedData.status !== 200) {
+      this.dispatch(websocketError(parsedData));
+    }
+
+    if (parsedData.status === 200 && !!error) {
+      this.dispatch(websocketClearError());
     }
 
     this.dispatch(websocketMessage(parsedData));

@@ -43,8 +43,6 @@ function ForgotPasswordModal({ onClick, handleForgotPassword }) {
         password.
       </p>
       <form onSubmit={handleSubmit}>
-        {!!emailError && <span className='error-message'>{emailError}</span>}
-
         <div className='email'>
           <label htmlFor='email'>Email *</label>
           <input
@@ -56,6 +54,8 @@ function ForgotPasswordModal({ onClick, handleForgotPassword }) {
             onChange={handleChange}
           />
         </div>
+
+        {!!emailError && <span className='error-message'>{emailError}</span>}
 
         <button
           type='submit'

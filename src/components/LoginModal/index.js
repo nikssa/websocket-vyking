@@ -18,7 +18,6 @@ const validatePassword = (password) => {
 };
 
 function LoginModal({ onClick, onForgotPasswordClick, handleLogin }) {
-  //
   const [formData, setFormData] = useState({ username: '', password: '' });
   const [usernameError, setUsernameError] = useState(null);
   const [passwordError, setPasswordError] = useState(null);
@@ -48,7 +47,7 @@ function LoginModal({ onClick, onForgotPasswordClick, handleLogin }) {
     e.preventDefault();
     const { username, password } = formData;
     handleLogin(username, password);
-    // setFormData({ username: '', password: '' });
+    setFormData({ username: '', password: '' });
   };
 
   const handleRegister = (e) => {
@@ -67,9 +66,6 @@ function LoginModal({ onClick, onForgotPasswordClick, handleLogin }) {
         <img src={Logo} alt='Vyking logo' />
       </div>
       <form onSubmit={handleSubmit}>
-        {usernameError && (
-          <span className='error-message'>{usernameError}</span>
-        )}
         <div className='username'>
           <label htmlFor='username'>Username or Email *</label>
           <input
@@ -81,10 +77,10 @@ function LoginModal({ onClick, onForgotPasswordClick, handleLogin }) {
             onChange={handleChange}
           />
         </div>
-
-        {passwordError && (
-          <span className='error-message'>{passwordError}</span>
+        {usernameError && (
+          <span className='error-message'>{usernameError}</span>
         )}
+
         <div className='password'>
           <div className='field'>
             <label htmlFor='password'>Password *</label>
@@ -103,6 +99,9 @@ function LoginModal({ onClick, onForgotPasswordClick, handleLogin }) {
             {isPasswordVisible ? <EyeCrossed /> : <Eye />}
           </div>
         </div>
+        {passwordError && (
+          <span className='error-message'>{passwordError}</span>
+        )}
 
         <a href='/' onClick={onForgotPasswordClick}>
           Forgot Password?
