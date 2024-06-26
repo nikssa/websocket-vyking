@@ -6,6 +6,7 @@ import {
   websocketLogin,
   websocketLogout,
   websocketMessage,
+  isModalOpen,
   websocketPayouts
 } from './store/actions/websocketActions';
 
@@ -90,8 +91,11 @@ class WebSocketService {
       this.dispatch(websocketError(parsedData));
     }
 
-    if (parsedData.status === 200 && !!error) {
-      this.dispatch(websocketClearError());
+    if (parsedData.status === 200) {
+      this.dispatch(isModalOpen(false));
+      if (!error) {
+        this.dispatch(websocketClearError());
+      }
     }
 
     this.dispatch(websocketMessage(parsedData));

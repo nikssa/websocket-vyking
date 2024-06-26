@@ -3,7 +3,8 @@ const initialState = {
   isConnected: false,
   messages: [],
   payouts: [],
-  error: null
+  error: null,
+  isOpen: false
 };
 
 export default function websocketReducer(state = initialState, action) {
@@ -18,6 +19,8 @@ export default function websocketReducer(state = initialState, action) {
       return { ...state, error: action.payload };
     case 'WEBSOCKET_CLEAR_ERROR':
       return { ...state, error: null };
+    case 'MODAL_IS_OPEN':
+      return { ...state, isOpen: action.payload };
     case 'WEBSOCKET_LOGIN':
       return {
         ...state,

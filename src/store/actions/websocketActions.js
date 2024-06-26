@@ -16,6 +16,11 @@ export const websocketError = (message) => ({
 });
 export const websocketClearError = () => ({ type: 'WEBSOCKET_CLEAR_ERROR' });
 
+export const isModalOpen = (value) => ({
+  type: 'MODAL_IS_OPEN',
+  payload: value
+});
+
 export const websocketPayouts = (message) => ({
   type: 'WEBSOCKET_PAYOUTS',
   payload: message

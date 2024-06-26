@@ -5,8 +5,8 @@ import { ReactComponent as EyeCrossed } from '../../assets/eye-with-line.svg';
 import './style.scss';
 
 const validateUsername = (username) => {
-  if (username.length < 4) {
-    return 'Username must be at least 4 characters long.';
+  if (username.length < 1) {
+    return 'Username or Email can not be empty.';
   }
   return '';
 };
@@ -47,7 +47,7 @@ function LoginModal({ onClick, onForgotPasswordClick, handleLogin }) {
     e.preventDefault();
     const { username, password } = formData;
     handleLogin(username, password);
-    setFormData({ username: '', password: '' });
+    // setFormData({ username: '', password: '' });
   };
 
   const handleRegister = (e) => {

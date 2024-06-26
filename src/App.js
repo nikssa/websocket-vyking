@@ -8,11 +8,11 @@ import ForgotPasswordModal from './components/ForgotPasswordModal';
 import Payout from './components/Payout';
 import { ToastContainer, toast } from 'react-toastify';
 import 'react-toastify/dist/ReactToastify.min.css';
+import { isModalOpen } from './store/actions/websocketActions';
 import './App.scss';
 
 function App() {
-  // const { user, error } = useSelector((state) => state.websocket);
-  const { error } = useSelector((state) => state.websocket);
+  const { isOpen, error } = useSelector((state) => state.websocket);
 
   const dispatch = useDispatch();
   const websocketInstance = WebSocketService.getInstance(dispatch);
@@ -23,23 +23,21 @@ function App() {
     return () => {
       websocketInstance.disconnect();
     };
-  }, [dispatch, websocketInstance]);
+  }, [websocketInstance]);
 
   const readyState = websocketInstance.socketRef?.readyState;
 
-  const [isOpen, setIsOpen] = useState(false);
   const [isLogin, setIsLogin] = useState(true);
 
   const handleClick = () => {
-    setIsOpen((prev) => !prev);
+    dispatch(isModalOpen(!isOpen));
     setIsLogin(true);
   };
 
   const handleForgotPasswordClick = (e) => {
     e.preventDefault();
-
     setIsLogin(false);
-    setIsOpen(true);
+    dispatch(isModalOpen(true));
   };
 
   const handleLogin = (username, password) => {
@@ -50,7 +48,6 @@ function App() {
         cPassword: md5(password) // md5('test1234') => '16d7a4fca7442dda3ad93c9a726597e4'
       }
     });
-    setIsOpen(false);
   };
 
   const handleLogout = () => {
@@ -68,29 +65,13 @@ function App() {
         cLink: 'https://demo.vyking.com'
       }
     });
-    setIsOpen(false);
   };
 
   useEffect(() => {
-    const toastConfiguration = {
-      position: 'top-center',
-      autoClose: 10000,
-      hideProgressBar: false,
-      closeOnClick: true,
-      pauseOnHover: true,
-      draggable: true,
-      progress: undefined,
-      theme: 'colored',
-      type: 'error'
-      // transition: Slide
-    };
-    toast(error?.payload?.message, toastConfiguration);
+    toast.error(error?.payload?.message);
   }, [error]);
 
   useEffect(() => {
-    // const isUser = !!user;
-    // if (isUser) {
-    // console.log('isUser', isUser);
     if (readyState === WebSocket.OPEN) {
       websocketInstance.sendMessage({
         event: '/ce/payment/withdraw/bigSub',
@@ -101,22 +82,33 @@ function App() {
 
   return (
     <div className='App'>
-      <ToastContainer />
+      <ToastContainer
+        position='top-center'
+        autoClose={5000}
+        hideProgressBar={false}
+        closeOnClick={true}
+        pauseOnHover={true}
+        draggable={true}
+        progress={undefined}
+        theme='colored'
+      />
 
-      <div className={`modal-wrapper ${isOpen ? 'open' : ''}`}>
-        {isLogin ? (
-          <LoginModal
-            onClick={handleClick}
-            onForgotPasswordClick={handleForgotPasswordClick}
-            handleLogin={handleLogin}
-          />
-        ) : (
-          <ForgotPasswordModal
-            onClick={handleClick}
-            handleForgotPassword={handleForgotPassword}
-          />
-        )}
-      </div>
+      {isOpen && (
+        <div className='modal-wrapper'>
+          {isLogin ? (
+            <LoginModal
+              onClick={handleClick}
+              onForgotPasswordClick={handleForgotPasswordClick}
+              handleLogin={handleLogin}
+            />
+          ) : (
+            <ForgotPasswordModal
+              onClick={handleClick}
+              handleForgotPassword={handleForgotPassword}
+            />
+          )}
+        </div>
+      )}
 
       <Header onClick={handleClick} handleLogout={handleLogout} />
 
