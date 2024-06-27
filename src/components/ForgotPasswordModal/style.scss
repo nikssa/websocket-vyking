@@ -1,5 +1,10 @@
 .modal {
   &.forgot-password {
+    .svg {
+      text-align: center;
+      width: 100%;
+    }
+
     h2 {
       margin: 3rem 0 1rem;
     }

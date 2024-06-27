@@ -47,19 +47,18 @@ function LoginModal({ onClick, onForgotPasswordClick, handleLogin }) {
     e.preventDefault();
     const { username, password } = formData;
     handleLogin(username, password);
-    // setFormData({ username: '', password: '' });
   };
 
   const handleRegister = (e) => {
     e.preventDefault();
-    console.log('Redirect to Register page');
+    console.log('"Join now" link clicked');
   };
 
   return (
     <div className='modal login'>
       <div className='close'>
         <button onClick={onClick} className='close-button'>
-          X
+          <span>x</span>
         </button>
       </div>
       <div className='logo'>

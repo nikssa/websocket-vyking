@@ -4,8 +4,12 @@
   justify-content: space-between;
   align-items: center;
   background: #121765;
-  padding: 20px 40px;
+  padding: 20px 10px;
   box-sizing: border-box;
+
+  @media screen and (min-width: 576px) {
+    padding: 20px 40px;
+  }
 
   img {
     height: 40px;
@@ -14,8 +18,17 @@
   .user {
     display: flex;
     align-items: center;
-    span {
-      margin-right: 10px;
+    .username {
+      margin: 0 10px;
+      white-space: nowrap;
+      overflow: hidden;
+      text-overflow: ellipsis;
+      text-align: right;
+      width: calc(100vw - 260px);
+
+      @media screen and (min-width: 576px) {
+        width: auto;
+      }
     }
   }
 }

@@ -4,7 +4,7 @@ const initialState = {
   messages: [],
   payouts: [],
   error: null,
-  isOpen: false
+  isModalOpen: false
 };
 
 export default function websocketReducer(state = initialState, action) {
@@ -15,12 +15,6 @@ export default function websocketReducer(state = initialState, action) {
       return { ...state, isConnected: false };
     case 'WEBSOCKET_MESSAGE':
       return { ...state, messages: [...state.messages, action.payload] };
-    case 'WEBSOCKET_ERROR':
-      return { ...state, error: action.payload };
-    case 'WEBSOCKET_CLEAR_ERROR':
-      return { ...state, error: null };
-    case 'MODAL_IS_OPEN':
-      return { ...state, isOpen: action.payload };
     case 'WEBSOCKET_LOGIN':
       return {
         ...state,
@@ -28,8 +22,14 @@ export default function websocketReducer(state = initialState, action) {
       };
     case 'WEBSOCKET_LOGOUT':
       return { ...state, user: null };
+    case 'WEBSOCKET_ERROR':
+      return { ...state, error: action.payload };
+    case 'WEBSOCKET_CLEAR_ERROR':
+      return { ...state, error: null };
     case 'WEBSOCKET_PAYOUTS':
       return { ...state, payouts: action.payload };
+    case 'MODAL_OPEN':
+      return { ...state, isModalOpen: action.payload };
     default:
       return state;
   }

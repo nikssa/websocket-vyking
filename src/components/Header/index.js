@@ -6,15 +6,14 @@ import './style.scss';
 
 function Header({ onClick, handleLogout }) {
   const user = useSelector((state) => state.websocket.user);
-  const { payload: userData } = user !== null ? user : { payload: null };
-  const isUser = !!userData;
+  const isUser = !!user;
 
   return (
     <header className='Header'>
       <img src={Logo} alt='logo' />
       {isUser ? (
         <div className='user'>
-          <span>{userData.cUsername}</span>
+          <span className='username'>{user.cUsername}</span>
           <Button text='Logout' onClick={handleLogout} />
         </div>
       ) : (

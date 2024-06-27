@@ -11,7 +11,6 @@ const validateEmail = (email) => {
 };
 
 function ForgotPasswordModal({ onClick, handleForgotPassword }) {
-  //
   const [email, setEmail] = useState('');
   const [emailError, setEmailError] = useState(null);
   const isDisabled = emailError === null || emailError;
@@ -31,13 +30,16 @@ function ForgotPasswordModal({ onClick, handleForgotPassword }) {
     <div className='modal forgot-password'>
       <div className='close'>
         <button onClick={onClick} className='close-button'>
-          X
+          <span>x</span>
         </button>
       </div>
       <div className='svg'>
         <img src={PasswordRecovery} alt='Password recovery' />
       </div>
-      <h2>Password recovery</h2>
+      <header>
+        <h2>Password recovery</h2>
+      </header>
+
       <p className='description'>
         Please enter email address connected to your Vyking account to reset
         password.

@@ -5,9 +5,9 @@
   display: flex;
   flex-wrap: nowrap;
   align-items: center;
-  margin: 2rem;
   height: var(--height);
-  width: calc(100% - 4rem);
+  min-width: 280px;
+  width: 100%;
 
   .payout-title {
     font-weight: 700;

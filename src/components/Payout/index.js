@@ -2,8 +2,7 @@ import { useSelector } from 'react-redux';
 import './style.scss';
 
 function Payout() {
-  const { payouts } = useSelector((state) => state.websocket);
-  const { payload: data } = payouts;
+  const { payouts: data } = useSelector((state) => state.websocket);
 
   return (
     data &&

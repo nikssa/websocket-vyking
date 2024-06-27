@@ -8,36 +8,33 @@ import ForgotPasswordModal from './components/ForgotPasswordModal';
 import Payout from './components/Payout';
 import { ToastContainer, toast } from 'react-toastify';
 import 'react-toastify/dist/ReactToastify.min.css';
-import { isModalOpen } from './store/actions/websocketActions';
+import { modalOpen } from './store/actions/websocketActions';
 import './App.scss';
 
 function App() {
-  const { isOpen, error } = useSelector((state) => state.websocket);
+  const [isLoginModal, setIsLoginModal] = useState(true);
 
+  const { isModalOpen, error } = useSelector((state) => state.websocket);
   const dispatch = useDispatch();
   const websocketInstance = WebSocketService.getInstance(dispatch);
+  const readyState = websocketInstance.socketRef?.readyState;
 
   useEffect(() => {
     websocketInstance.connect('wss://demo.vyking.com/ws');
-
     return () => {
       websocketInstance.disconnect();
     };
   }, [websocketInstance]);
 
-  const readyState = websocketInstance.socketRef?.readyState;
-
-  const [isLogin, setIsLogin] = useState(true);
-
   const handleClick = () => {
-    dispatch(isModalOpen(!isOpen));
-    setIsLogin(true);
+    dispatch(modalOpen(!isModalOpen));
+    !isLoginModal && setIsLoginModal(true);
   };
 
   const handleForgotPasswordClick = (e) => {
     e.preventDefault();
-    setIsLogin(false);
-    dispatch(isModalOpen(true));
+    !isModalOpen && dispatch(modalOpen(true));
+    isLoginModal && setIsLoginModal(false);
   };
 
   const handleLogin = (username, password) => {
@@ -68,10 +65,6 @@ function App() {
   };
 
   useEffect(() => {
-    toast.error(error?.payload?.message);
-  }, [error]);
-
-  useEffect(() => {
     if (readyState === WebSocket.OPEN) {
       websocketInstance.sendMessage({
         event: '/ce/payment/withdraw/bigSub',
@@ -79,6 +72,10 @@ function App() {
       });
     }
   }, [readyState, websocketInstance]);
+
+  useEffect(() => {
+    toast.error(error?.payload?.message);
+  }, [error]);
 
   return (
     <div className='App'>
@@ -93,9 +90,9 @@ function App() {
         theme='colored'
       />
 
-      {isOpen && (
+      {isModalOpen && (
         <div className='modal-wrapper'>
-          {isLogin ? (
+          {isLoginModal ? (
             <LoginModal
               onClick={handleClick}
               onForgotPasswordClick={handleForgotPasswordClick}

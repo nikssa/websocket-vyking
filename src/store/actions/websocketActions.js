@@ -4,7 +4,6 @@ export const websocketMessage = (message) => ({
   type: 'WEBSOCKET_MESSAGE',
   payload: message
 });
-
 export const websocketLogin = (message) => ({
   type: 'WEBSOCKET_LOGIN',
   payload: message
@@ -15,13 +14,11 @@ export const websocketError = (message) => ({
   payload: message
 });
 export const websocketClearError = () => ({ type: 'WEBSOCKET_CLEAR_ERROR' });
-
-export const isModalOpen = (value) => ({
-  type: 'MODAL_IS_OPEN',
-  payload: value
-});
-
 export const websocketPayouts = (message) => ({
   type: 'WEBSOCKET_PAYOUTS',
   payload: message
+});
+export const modalOpen = (value) => ({
+  type: 'MODAL_OPEN',
+  payload: value
 });

@@ -1,5 +1,4 @@
 .modal-wrapper {
-  // display: none;
   position: absolute;
   top: 0;
   left: 0;
@@ -10,21 +9,28 @@
 }
 
 .modal {
+  background-color: #121765;
+  border-radius: 0.5rem;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
   display: flex;
   flex-wrap: wrap;
-  flex-direction: column;
-  align-items: center;
+  align-items: flex-start;
+  justify-content: center;
+  overflow-x: hidden;
+  overflow-y: scroll;
+  padding: 6rem 3rem 3rem;
+  height: 100vh;
+  width: 100vw;
+  transform: translate(-50%, -50%);
+
   position: absolute;
   top: 50%;
   left: 50%;
-  transform: translate(-50%, -50%);
-  max-width: 335px;
-  background-color: #121765;
-  border-radius: 0.5rem;
-  padding: 6rem 3rem 3rem;
-  box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
 
   @media screen and (min-width: 576px) {
+    overflow-x: initial;
+    overflow-y: initial;
+    height: auto;
     width: 395px;
   }
 
@@ -37,11 +43,20 @@
       background-color: #000336;
       border: none;
       border-radius: 50%;
-      color: #fff;
+      color: #8394a0;
       cursor: pointer;
+      display: flex;
+      align-items: center;
+      justify-content: center;
       height: 4rem;
       width: 4rem;
-      padding: 1rem;
+
+      span {
+        display: inline-block;
+        font-size: 2.2rem;
+        line-height: 1;
+        margin-top: -2px;
+      }
     }
   }
 
@@ -139,11 +154,12 @@
       outline: none;
       padding: 1.5rem;
       text-transform: uppercase;
-      transition: 0.5s background-color;
+      transition: 0.5s box-shadow, 0.5s background-color;
       width: 100%;
 
-      &:hover {
+      &:hover:not(:disabled) {
         background-color: #6d033d;
+        box-shadow: 1px 1px 10px 3px rgba(255, 0, 59, 0.3);
       }
 
       &:disabled {
@@ -169,10 +185,8 @@
 
   a {
     color: #ff003b;
-    //   display: block;
-    font-size: 1.2rem;
+    font-size: 1.3rem;
     font-weight: 400;
-    // margin-bottom: 2rem;
     text-align: center;
     text-decoration: none;
     width: 100%;

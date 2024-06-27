@@ -6,10 +6,9 @@ import {
   websocketLogin,
   websocketLogout,
   websocketMessage,
-  isModalOpen,
+  modalOpen,
   websocketPayouts
 } from './store/actions/websocketActions';
-
 import store from './store/store';
 
 class WebSocketService {
@@ -74,28 +73,30 @@ class WebSocketService {
       const payloadSortedDesc = parsedData.payload.sort(
         (a, b) => new Date(b.ts).getTime() - new Date(a.ts).getTime()
       );
-      this.dispatch(
-        websocketPayouts({ ...parsedData, payload: payloadSortedDesc })
-      );
-    }
-
-    if (parsedData.event === '/se/player/login' && parsedData.status === 200) {
-      this.dispatch(websocketLogin(parsedData));
-    }
-
-    if (parsedData.event === '/se/player/logout' && parsedData.status === 200) {
+      this.dispatch(websocketPayouts(payloadSortedDesc));
+    } else if (
+      parsedData.event === '/se/player/login' &&
+      parsedData.status === 200
+    ) {
+      const payload = parsedData.payload;
+      this.dispatch(websocketLogin(payload));
+      this.dispatch(modalOpen(false));
+    } else if (
+      parsedData.event === '/se/player/logout' &&
+      parsedData.status === 200
+    ) {
       this.dispatch(websocketLogout());
-    }
-
-    if (parsedData.status !== 200) {
+    } else if (
+      parsedData.event === '/se/player/pwdResetByEmailRequest' &&
+      parsedData.status === 200
+    ) {
+      this.dispatch(modalOpen(false));
+    } else if (parsedData.status !== 200) {
       this.dispatch(websocketError(parsedData));
     }
 
-    if (parsedData.status === 200) {
-      this.dispatch(isModalOpen(false));
-      if (!error) {
-        this.dispatch(websocketClearError());
-      }
+    if (parsedData.status === 200 && !!error) {
+      this.dispatch(websocketClearError());
     }
 
     this.dispatch(websocketMessage(parsedData));
