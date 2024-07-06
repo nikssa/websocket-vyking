@@ -1,0 +1,5484 @@
+{
+  "user": {
+    "iID": "2959",
+    "cScreenname": "vyking.test",
+    "cUsername": "vyking.test",
+    "cEmail": "vyking.test@vyking.com",
+    "cRegisterIp": "82.192.51.172",
+    "cDomain": "demo.vyking.com",
+    "cFirstName": "Petar",
+    "cLastName": null,
+    "dBirthday": "1994-03-02",
+    "cAddress": null,
+    "cCity": null,
+    "cZip": null,
+    "cCountry": "SI",
+    "cCountryAlpha2": "SI",
+    "cCountryAlpha3": "SVN",
+    "cCountryGeoIp": "SVN",
+    "cLanguage": "EN",
+    "cLanguageAlpha3": "eng",
+    "cGender": "male",
+    "cCurrency": "EUR",
+    "cPhone1": "+38169904151",
+    "cMessenger": null,
+    "cQuestion": null,
+    "cAnswer": null,
+    "cTrackingCode": null,
+    "iValidated": "0",
+    "iTrackedBy": null,
+    "cGroup": "D-Rating",
+    "cType": "Regular",
+    "cCustomInfo1": null,
+    "cCustomInfo2": null,
+    "cCustomInfo3": null,
+    "ValidationTime": null,
+    "LegitimationTime": null,
+    "RegistrationTime": "2024-04-30T13:48:19+00:00",
+    "AffiliateTime": null,
+    "HouseplayerTime": null,
+    "TermsAccepted": "2024-04-30 13:48:19",
+    "iNewsletter": "1",
+    "iPromotions": "1",
+    "iPostalMail": "0",
+    "aFlags": [
+      "Playable",
+      "Accessible",
+      "EmailSubscribedNewsletter",
+      "EmailSubscribedCrm",
+      "PushNotification",
+      "SmsSubscribed",
+      "TelephoneSubscribed"
+    ],
+    "AffId": null,
+    "AffNick": null,
+    "AffStructure": null,
+    "AffLevel": "1",
+    "AffTracked2Id": null,
+    "AffTracked2Nick": null,
+    "AffTracked2Structure": null,
+    "ExtInfo": [],
+    "AccountDetails": [
+      {
+        "iID": "17561741",
+        "iBalance": "0",
+        "cCurrency": "EUR",
+        "iType": "400",
+        "dLastUpdate": "2024-04-30 13:48:19"
+      }
+    ],
+    "settings": [
+      {
+        "key": "Account/CrossDomainsetLogin/Enable",
+        "value": null
+      },
+      {
+        "key": "Account/Upgrade/Enabled",
+        "value": null
+      },
+      {
+        "key": "Account/Upgrade/RemindMeAfter",
+        "value": null
+      },
+      {
+        "key": "Betslip/AcceptChangedOdds",
+        "value": null
+      },
+      {
+        "key": "Betslip/OddsDisplay",
+        "value": null
+      },
+      {
+        "key": "Bitcoin/WalletIds",
+        "value": null
+      },
+      {
+        "key": "Casinogame/Favorite",
+        "value": {}
+      },
+      {
+        "key": "Casinogame/RecentSearch",
+        "value": null
+      },
+      {
+        "key": "Casinogame/SkipMobileInfo",
+        "value": null
+      },
+      {
+        "key": "Messages/LastSeen",
+        "value": 1717106400
+      },
+      {
+        "key": "Payment/Bankaccount/Default",
+        "value": null
+      },
+      {
+        "key": "Payment/Deposit/ShowBonusOffers",
+        "value": null
+      },
+      {
+        "key": "Payment/Exclude/Deposit",
+        "value": null
+      },
+      {
+        "key": "Payment/Exclude/Withdraw",
+        "value": null
+      },
+      {
+        "key": "PopupMessages/LastSeen",
+        "value": 1714484899
+      },
+      {
+        "key": "Selfexclusion/EndDate",
+        "value": null
+      },
+      {
+        "key": "Selfexclusion/EndDate/CasinoLive",
+        "value": null
+      },
+      {
+        "key": "Selfexclusion/EndDate/CasinoSlot",
+        "value": null
+      },
+      {
+        "key": "Selfexclusion/EndDate/Sportsbetting",
+        "value": null
+      },
+      {
+        "key": "Selfexclusion/Timerange",
+        "value": null
+      },
+      {
+        "key": "SportsFavorite/Competition",
+        "value": {}
+      },
+      {
+        "key": "SportsFavorite/Game",
+        "value": {}
+      },
+      {
+        "key": "SportsFavorite/Pinned",
+        "value": {}
+      },
+      {
+        "key": "SportsPredictor/Enabled",
+        "value": null
+      },
+      {
+        "key": "Theme/Name",
+        "value": null
+      },
+      {
+        "key": "Theme/NewDesign",
+        "value": null
+      },
+      {
+        "key": "WhatsApp/SendPromo/Enabled",
+        "value": null
+      },
+      {
+        "key": "WhatsApp/SendPromo/MobileNo",
+        "value": null
+      },
+      {
+        "key": "WhatsApp/SendPromo/RemindMeAfter",
+        "value": null
+      }
+    ],
+    "newmessagecount": 0,
+    "popupmessages": [],
+    "cToken": "4157c7805fe0917d2047229c3e37326a",
+    "token": "4157c7805fe0917d2047229c3e37326a",
+    "jwt": "eyJhbGciOiJIUzI1NiJ9.eyJ0b2tlbiI6IjQxNTdjNzgwNWZlMDkxN2QyMDQ3MjI5YzNlMzczMjZhIn0.NFHZFdeFGjDS5GAOI92aUcGQI0ORo4yrpRgcji7m6TE",
+    "tokenExtra": "e58f9a1301b6e916fa9237b6f78d2561",
+    "tokenValidTill": 1720309871,
+    "tokenExpiresOn": 1720309871,
+    "tokenValidTillDiff": 1800,
+    "tokenExpiresIn": 1800
+  },
+  "isConnected": true,
+  "messages": [
+    {
+      "event": "/ie/connection/info",
+      "status": 200,
+      "payload": {
+        "v": -1
+      }
+    },
+    {
+      "event": "/se/connection/init3",
+      "status": 200,
+      "payload": {
+        "config": {
+          "A1_Url_Payment_Deposit": "",
+          "A1_Url_Receipt": "",
+          "A1_Url_SessionTimeout_Redirect": "",
+          "Betting_AcceptPriceChanges": 0,
+          "Betting_AllowPredictionChange": false,
+          "Betting_BCLiveStreamHost": "stream1.streamservers.info:7791",
+          "Betting_Boosted_AllowedNetrefIds": null,
+          "Betting_Boosted_BlockingEvents": [],
+          "Betting_Boosted_BonusTemplateId": null,
+          "Betting_Boosted_Config": [],
+          "Betting_Boosted_Enabled": false,
+          "Betting_Boosted_Events": [],
+          "Betting_Boosted_IgnoreNetrefIds": false,
+          "Betting_Boosted_MaxStake": 0,
+          "Betting_Boosted_NewPrices": [],
+          "Betting_Boosted_PromotionLink": "#",
+          "Betting_Dropdown_PopularMarket": {},
+          "Betting_EnableBetBooking": false,
+          "Betting_PredictorEventPopularPredictionsNumber": 3,
+          "Betting_PrintBetslip": false,
+          "Betting_PromotedGame_MarketID": 0,
+          "Betting_RegionCompetitionOrder": {
+            "popularOrder": {
+              "1": {
+                "10001": [
+                  {
+                    "competitionId": 3042,
+                    "order": 1
+                  },
+                  {
+                    "competitionId": 3035,
+                    "order": 14
+                  },
+                  {
+                    "competitionId": 4171,
+                    "order": 6
+                  },
+                  {
+                    "competitionId": 573,
+                    "order": 10
+                  },
+                  {
+                    "competitionId": 18288060,
+                    "order": 2
+                  }
+                ],
+                "20001": [
+                  {
+                    "competitionId": 566,
+                    "order": 7
+                  },
+                  {
+                    "competitionId": 18284622,
+                    "order": 8
+                  },
+                  {
+                    "competitionId": 1861,
+                    "order": 3
+                  },
+                  {
+                    "competitionId": 18278410,
+                    "order": 1
+                  }
+                ],
+                "60001": [
+                  {
+                    "competitionId": 2988,
+                    "order": 11
+                  }
+                ],
+                "420001": [
+                  {
+                    "competitionId": 1806,
+                    "order": 1
+                  }
+                ],
+                "830001": [
+                  {
+                    "competitionId": 548,
+                    "order": 6
+                  }
+                ],
+                "900001": [
+                  {
+                    "competitionId": 541,
+                    "order": 5
+                  },
+                  {
+                    "competitionId": 1876,
+                    "order": 13
+                  }
+                ],
+                "1170001": [
+                  {
+                    "competitionId": 543,
+                    "order": 4
+                  }
+                ],
+                "2150001": [
+                  {
+                    "competitionId": 545,
+                    "order": 3
+                  }
+                ],
+                "2420001": [
+                  {
+                    "competitionId": 3025,
+                    "order": 10
+                  }
+                ],
+                "2570001": [
+                  {
+                    "competitionId": 538,
+                    "order": 2
+                  },
+                  {
+                    "competitionId": 1840,
+                    "order": 12
+                  }
+                ]
+              },
+              "3": {
+                "50003": [
+                  {
+                    "competitionId": 756,
+                    "order": 1
+                  },
+                  {
+                    "competitionId": 757,
+                    "order": 2
+                  }
+                ],
+                "210003": [
+                  {
+                    "competitionId": 637,
+                    "order": 3
+                  }
+                ],
+                "1260003": [
+                  {
+                    "competitionId": 743,
+                    "order": 4
+                  }
+                ]
+              },
+              "4": {
+                "830004": [
+                  {
+                    "competitionId": 11424,
+                    "order": 6
+                  },
+                  {
+                    "competitionId": 11425,
+                    "order": 7
+                  },
+                  {
+                    "competitionId": 22739,
+                    "order": 8
+                  }
+                ],
+                "1170004": [
+                  {
+                    "competitionId": 1257,
+                    "order": 5
+                  }
+                ],
+                "1540004": [
+                  {
+                    "competitionId": 1288,
+                    "order": 2
+                  }
+                ],
+                "2150004": [
+                  {
+                    "competitionId": 4643,
+                    "order": 3
+                  },
+                  {
+                    "competitionId": 10111,
+                    "order": 4
+                  }
+                ],
+                "2220004": [
+                  {
+                    "competitionId": 11389,
+                    "order": 9
+                  }
+                ],
+                "2420004": [
+                  {
+                    "competitionId": 1388,
+                    "order": 1
+                  }
+                ]
+              }
+            },
+            "regionOrder": {
+              "1": [1900001, 2150001, 1170001, 900001, 830001, 20001, 10001]
+            }
+          },
+          "Betting_ShowSportBanners": true,
+          "Betting_ShowUniqueRegion": false,
+          "Betting_TimeFilterRanges": [6, 12, 24, 72],
+          "Betting_UniqueCompetitionsId": [],
+          "Betting_UniqueRegionId": 0,
+          "Betting_UniqueRegionImageName": "world-cup.jpg",
+          "Casino_GameProviderOrder": [],
+          "Casino_GridCellsBorderRadius": 10,
+          "Casino_GridCellsMax": 0,
+          "Casino_GridCellsMin": 2,
+          "Casino_GridColMinWidth": 200,
+          "Casino_GridGameResSizes": {
+            "sm": 150,
+            "xl": 250
+          },
+          "Casino_GridOuterBottomPadding": 10,
+          "Casino_GridOuterLeftPadding": 50,
+          "Casino_GridOuterRightPadding": 50,
+          "Casino_GridOuterTopPadding": 10,
+          "Casino_GridRatioHeight": 3,
+          "Casino_GridRatioWidth": 4,
+          "Casino_GridShowGameName": true,
+          "Casino_GridShowGameNamePosition": "outside_bottom",
+          "Casino_GridSpacing": 10,
+          "Casino_ProviderNoCat": false,
+          "Casino_ShowCasinoBanners": true,
+          "Casino_ShowProviderSearchBar": true,
+          "Casino_ShowRecentBigWinners": true,
+          "DevCode_MerchantId": 100257994,
+          "DevCode_MoneyTypeMap": null,
+          "DevCode_TestMode": true,
+          "DevCode_UrlCashier": "https://pay.paymentiq.io/cashier/cashier.js",
+          "Integration_Partner_Betconstruct": "default",
+          "Integration_Partner_Betswap": "default",
+          "Integration_Partner_Mic": "default",
+          "Integration_Partner_Playtech": "default",
+          "Integration_Partner_Slotegrator": "default",
+          "Integration_Partner_Softswiss": "default",
+          "Integration_Partner_TimelessTech": "default",
+          "Layout_CasinoCategoryRows": [3, 2, 4],
+          "Layout_CasinoCategoryUseHardcoded": true,
+          "Layout_DesktopMenuDrawerItems": {
+            "DesktopAccountMenu": {
+              "group-1": [
+                {
+                  "menuName": "myBets",
+                  "menuIconSrc": "my-bets-menu.svg",
+                  "menuTranslationKey": "/betting/betslip/my-bets-title",
+                  "menuCTA": {
+                    "path": "/my-bets"
+                  }
+                },
+                {
+                  "menuName": "bonuses",
+                  "menuIconSrc": "bonuses-menu.svg",
+                  "menuTranslationKey": "/player/wallet/bonuses",
+                  "menuCTA": {
+                    "path": "/account/bonuses"
+                  }
+                },
+                {
+                  "menuName": "rebates",
+                  "menuIconSrc": "rebates-menu.svg",
+                  "menuTranslationKey": "/player/wallet/rebates",
+                  "menuCTA": {
+                    "path": "/account/rebates"
+                  }
+                },
+                {
+                  "menuName": "vip",
+                  "menuIconSrc": "vip-menu.svg",
+                  "menuTranslationKey": "/common/header/vip-club",
+                  "menuCTA": {
+                    "path": "/account/vip"
+                  }
+                },
+                {
+                  "menuName": "favouriteGames",
+                  "menuIconSrc": "favorite-games-menu.svg",
+                  "menuTranslationKey": "/betting/common/favourite-games-title",
+                  "menuCTA": {
+                    "path": "/account/casino-user-favorites"
+                  }
+                }
+              ],
+              "group-2": [
+                {
+                  "menuName": "voucher",
+                  "menuIconSrc": "voucher-menu.svg",
+                  "menuTranslationKey": "/player/wallet/voucher",
+                  "menuCTA": {
+                    "path": "/account/voucher"
+                  }
+                },
+                {
+                  "menuName": "transactions",
+                  "menuIconSrc": "transactions-menu.svg",
+                  "menuTranslationKey": "/player/transaction/transactions",
+                  "menuCTA": {
+                    "path": "/account/my-payments/transactions"
+                  }
+                }
+              ],
+              "group-3": [
+                {
+                  "menuName": "bankAccounts",
+                  "menuIconSrc": "bank-account-menu.svg",
+                  "menuTranslationKey": "/player/bankaccount/bank-accounts",
+                  "menuCTA": {
+                    "path": "/account/bank-accounts"
+                  }
+                },
+                {
+                  "menuName": "password",
+                  "menuIconSrc": "password-menu.svg",
+                  "menuTranslationKey": "/player/details/password",
+                  "menuCTA": {
+                    "path": "/account/password-reset"
+                  }
+                },
+                {
+                  "menuName": "accountDetails",
+                  "menuIconSrc": "account-details-menu.svg",
+                  "menuTranslationKey": "/player/details/account-details",
+                  "menuCTA": {
+                    "path": "/account/my-details"
+                  }
+                },
+                {
+                  "menuName": "verification",
+                  "menuIconSrc": "verification-menu.svg",
+                  "menuTranslationKey": "/player/details/verification",
+                  "menuCTA": {
+                    "path": "/account/verification"
+                  }
+                }
+              ],
+              "group-4": [
+                {
+                  "menuName": "messages",
+                  "menuIconSrc": "messages-menu.svg",
+                  "menuTranslationKey": "/player/messages/messages",
+                  "menuCTA": {
+                    "path": "/account/messages"
+                  }
+                },
+                {
+                  "menuName": "notifications",
+                  "menuIconSrc": "notifications-menu.svg",
+                  "menuTranslationKey": "/player/details/notifications",
+                  "menuCTA": {
+                    "path": "/account/notifications"
+                  }
+                },
+                {
+                  "menuName": "preferences",
+                  "menuIconSrc": "preferences-menu.svg",
+                  "menuTranslationKey": "/player/preferences/preferences",
+                  "menuCTA": {
+                    "path": "/account/preferences"
+                  }
+                },
+                {
+                  "menuName": "selfExclusion",
+                  "menuIconSrc": "self-exclusion-menu.svg",
+                  "menuTranslationKey": "/player/selflimits/self-limits",
+                  "menuCTA": {
+                    "path": "/account/self-exclusion"
+                  }
+                }
+              ],
+              "group-5": [
+                {
+                  "menuName": "feedback",
+                  "menuIconSrc": "feedback-menu.svg",
+                  "menuTranslationKey": "/common/header/feedback",
+                  "menuCTA": {
+                    "path": "/account/feedback"
+                  }
+                },
+                {
+                  "menuName": "getSupport",
+                  "menuIconSrc": "getsupport-menu.svg",
+                  "menuTranslationKey": "/common/header/get-support",
+                  "menuCTA": {
+                    "action": "openChat"
+                  }
+                }
+              ]
+            },
+            "DesktopProfileMenu": {
+              "group-1": [
+                {
+                  "menuName": "myBets",
+                  "menuIconSrc": "my-bets-menu.svg",
+                  "menuTranslationKey": "/betting/betslip/my-bets-title",
+                  "menuCTA": {
+                    "path": "/my-bets"
+                  }
+                },
+                {
+                  "menuName": "bonuses",
+                  "menuIconSrc": "bonuses-menu.svg",
+                  "menuTranslationKey": "/player/wallet/bonuses",
+                  "menuCTA": {
+                    "path": "/account/bonuses"
+                  }
+                },
+                {
+                  "menuName": "rebates",
+                  "menuIconSrc": "rebates-menu.svg",
+                  "menuTranslationKey": "/player/wallet/rebates",
+                  "menuCTA": {
+                    "path": "/account/rebates"
+                  }
+                },
+                {
+                  "menuName": "favouriteGames",
+                  "menuIconSrc": "favorite-games-menu.svg",
+                  "menuTranslationKey": "/betting/common/favourite-games-title",
+                  "menuCTA": {
+                    "path": "/account/casino-user-favorites"
+                  }
+                }
+              ],
+              "group-2": [
+                {
+                  "menuName": "messages",
+                  "menuIconSrc": "messages-menu.svg",
+                  "menuTranslationKey": "/player/messages/messages",
+                  "menuCTA": {
+                    "path": "/account/messages"
+                  }
+                },
+                {
+                  "menuName": "selfExclusion",
+                  "menuIconSrc": "self-exclusion-menu.svg",
+                  "menuTranslationKey": "/player/selflimits/self-limits",
+                  "menuCTA": {
+                    "path": "/account/self-exclusion"
+                  }
+                },
+                {
+                  "menuName": "accountDetails",
+                  "menuIconSrc": "account-details-menu.svg",
+                  "menuTranslationKey": "/common/header/profile",
+                  "menuCTA": {
+                    "path": "/account/my-details"
+                  }
+                },
+                {
+                  "menuName": "feedback",
+                  "menuIconSrc": "feedback-menu.svg",
+                  "menuTranslationKey": "/common/header/feedback",
+                  "menuCTA": {
+                    "path": "/account/feedback"
+                  }
+                },
+                {
+                  "menuName": "Get Support",
+                  "menuIconSrc": "getsupport-menu.svg",
+                  "menuTranslationKey": "/common/header/get-support",
+                  "menuCTA": {
+                    "action": "openChat"
+                  }
+                }
+              ]
+            }
+          },
+          "Layout_DisplayFooterLegalIcons": true,
+          "Layout_FixedHeaderPages": [
+            "",
+            "prematch",
+            "casino",
+            "live-casino",
+            "casino-games",
+            "promo"
+          ],
+          "Layout_LandingPageCategoriesAndOrder": {
+            "gameOfTheWeekCategory": 105,
+            "mostPopularCategory": 119,
+            "categories": [
+              {
+                "id": 129,
+                "type": "slots",
+                "isLive": false
+              },
+              {
+                "id": 120,
+                "type": "live-casino",
+                "isLive": true
+              },
+              {
+                "id": null,
+                "type": "sport-specials"
+              },
+              {
+                "id": null,
+                "type": "category",
+                "isLive": false
+              },
+              {
+                "id": null,
+                "type": "category",
+                "isLive": true
+              }
+            ]
+          },
+          "Layout_LiveFeedPlayerUseAlpha3": ["HRK", "EUR"],
+          "Layout_LoadMoreCasinoGames": true,
+          "Layout_MainMenuPositionNewLine": false,
+          "Layout_MobileMenuDrawerItems": {
+            "MobileProfileMenu": {
+              "group-1": [
+                {
+                  "menuName": "voucher",
+                  "menuIconSrc": "voucher-menu.svg",
+                  "menuTranslationKey": "/player/wallet/voucher",
+                  "menuVisibility": "loggedIn",
+                  "menuCTA": {
+                    "path": "/account/voucher"
+                  }
+                },
+                {
+                  "menuName": "bankAccounts",
+                  "menuIconSrc": "bank-account-menu.svg",
+                  "menuTranslationKey": "/player/bankaccount/bank-accounts",
+                  "menuVisibility": "loggedIn",
+                  "menuCTA": {
+                    "path": "/account/bank-accounts"
+                  }
+                },
+                {
+                  "menuName": "transactions",
+                  "menuIconSrc": "transactions-menu.svg",
+                  "menuTranslationKey": "/player/transaction/transactions",
+                  "menuVisibility": "loggedIn",
+                  "menuCTA": {
+                    "path": "/account/my-payments/transactions"
+                  }
+                }
+              ],
+              "group-2": [
+                {
+                  "menuName": "accountDetails",
+                  "menuIconSrc": "account-details-menu.svg",
+                  "menuTranslationKey": "/player/details/account-details",
+                  "menuVisibility": "loggedIn",
+                  "menuCTA": {
+                    "path": "/account/my-details"
+                  }
+                },
+                {
+                  "menuName": "password",
+                  "menuIconSrc": "password-menu.svg",
+                  "menuTranslationKey": "/player/details/password",
+                  "menuVisibility": "loggedIn",
+                  "menuCTA": {
+                    "path": "/account/password-reset"
+                  }
+                },
+                {
+                  "menuName": "verification",
+                  "menuIconSrc": "verification-menu.svg",
+                  "menuTranslationKey": "/player/details/verification",
+                  "menuVisibility": "loggedIn",
+                  "menuCTA": {
+                    "path": "/account/verification"
+                  }
+                },
+                {
+                  "menuName": "selfExclusion",
+                  "menuIconSrc": "self-exclusion-menu.svg",
+                  "menuTranslationKey": "/player/selflimits/self-exclusion",
+                  "menuVisibility": "loggedIn",
+                  "menuCTA": {
+                    "path": "/account/self-exclusion"
+                  }
+                }
+              ],
+              "group-3": [
+                {
+                  "menuName": "messages",
+                  "menuIconSrc": "messages-menu.svg",
+                  "menuTranslationKey": "/player/messages/messages",
+                  "menuVisibility": "loggedIn",
+                  "menuCTA": {
+                    "path": "/account/messages"
+                  }
+                },
+                {
+                  "menuName": "preferences",
+                  "menuIconSrc": "preferences-menu.svg",
+                  "menuTranslationKey": "/player/preferences/preferences",
+                  "menuVisibility": "loggedIn",
+                  "menuCTA": {
+                    "path": "/account/preferences"
+                  }
+                }
+              ]
+            },
+            "MobileFooterMenu": {
+              "group-1": [
+                {
+                  "menuName": "myBets",
+                  "menuIconSrc": "my-bets-menu.svg",
+                  "menuTranslationKey": "/betting/betslip/my-bets-title",
+                  "menuVisibility": "loggedIn",
+                  "menuCTA": {
+                    "path": "/my-bets"
+                  }
+                },
+                {
+                  "menuName": "rebates",
+                  "menuIconSrc": "rebates-menu.svg",
+                  "menuTranslationKey": "/player/wallet/rebates",
+                  "menuVisibility": "loggedIn",
+                  "menuCTA": {
+                    "path": "/account/rebates"
+                  }
+                },
+                {
+                  "menuName": "bonuses",
+                  "menuIconSrc": "bonuses-menu.svg",
+                  "menuTranslationKey": "/player/wallet/bonuses",
+                  "menuVisibility": "loggedIn",
+                  "menuCTA": {
+                    "path": "/account/bonuses"
+                  }
+                },
+                {
+                  "menuName": "favouriteGames",
+                  "menuIconSrc": "favorite-games-menu.svg",
+                  "menuTranslationKey": "/betting/common/favourite-games-title",
+                  "menuVisibility": "loggedIn",
+                  "menuCTA": {
+                    "path": "/account/casino-user-favorites"
+                  }
+                }
+              ],
+              "group-2": [
+                {
+                  "menuName": "liveCasino",
+                  "menuIconSrc": "live-casino-menu.svg",
+                  "menuTranslationKey": "/common/header/live-casino",
+                  "menuVisibility": "loggedOut",
+                  "menuCTA": {
+                    "path": "/live-casino"
+                  }
+                },
+                {
+                  "menuName": "slots",
+                  "menuIconSrc": "slots-menu.svg",
+                  "menuTranslationKey": "/common/header/slots-casino",
+                  "menuVisibility": "loggedOut",
+                  "menuCTA": {
+                    "path": "/slots"
+                  }
+                },
+                {
+                  "menuName": "liveSports",
+                  "menuIconSrc": "live-menu.svg",
+                  "menuTranslationKey": "/common/header/live-sports",
+                  "menuVisibility": "loggedOut",
+                  "menuCTA": {
+                    "path": "/live"
+                  }
+                },
+                {
+                  "menuName": "prematch",
+                  "menuIconSrc": "prematch-menu.svg",
+                  "menuTranslationKey": "/common/header/prematch-sports",
+                  "menuVisibility": "loggedOut",
+                  "menuCTA": {
+                    "path": "/prematch"
+                  }
+                }
+              ],
+              "group-3": [
+                {
+                  "menuName": "promo",
+                  "menuIconSrc": "promo-menu.svg",
+                  "menuTranslationKey": "/common/header/promotions",
+                  "menuVisibility": "loggedIn",
+                  "menuCTA": {
+                    "path": "/promo"
+                  }
+                },
+                {
+                  "menuName": "affiliate",
+                  "menuIconSrc": "affiliate-menu.svg",
+                  "menuTranslationKey": "/common/header/refer-a-friend",
+                  "menuVisibility": "loggedIn",
+                  "menuCTA": {
+                    "path": "/refer-a-friend"
+                  }
+                },
+                {
+                  "menuName": "vip",
+                  "menuIconSrc": "vip-menu.svg",
+                  "menuTranslationKey": "/common/header/vip-club",
+                  "menuVisibility": "loggedIn",
+                  "menuCTA": {
+                    "path": "/account/vip"
+                  }
+                }
+              ],
+              "group-4": [
+                {
+                  "menuName": "notifications",
+                  "menuIconSrc": "notifications-menu.svg",
+                  "menuTranslationKey": "/player/details/notifications",
+                  "menuVisibility": "loggedIn",
+                  "menuCTA": {
+                    "path": "/account/notifications"
+                  }
+                },
+                {
+                  "menuName": "feedback",
+                  "menuIconSrc": "feedback-menu.svg",
+                  "menuTranslationKey": "/common/header/feedback",
+                  "menuVisibility": "loggedIn",
+                  "menuCTA": {
+                    "path": "/account/feedback"
+                  }
+                },
+                {
+                  "menuName": "getSupport",
+                  "menuIconSrc": "getsupport-menu.svg",
+                  "menuTranslationKey": "/common/header/get-support",
+                  "menuVisibility": "loggedIn",
+                  "menuCTA": {
+                    "action": "openChat"
+                  }
+                }
+              ]
+            }
+          },
+          "Layout_RedirectHome_Desktop": "",
+          "Layout_RedirectHome_Mobile": "",
+          "Layout_RedirectLandingPageTo": "",
+          "Layout_RedirectLandingPageToPrematch": false,
+          "Layout_ShowCasinoFilterAndSort": false,
+          "Layout_ShowCasinoNavigation": true,
+          "Layout_ShowFooter": true,
+          "Layout_ShowHeaderFullLoginForm": false,
+          "Layout_ShowHeaderSearchBar": false,
+          "Layout_ShowHomeBanners_Desktop": true,
+          "Layout_ShowHomeBanners_Mobile": true,
+          "Layout_ShowImportantCompetition": {
+            "competitionId": 1855,
+            "backgroundImagePathDesktop": "/euro-2024-desktop",
+            "backgroundImagePathMobile": "/euro-2024-mobile",
+            "iconPath": "/euro-2024-icon.svg",
+            "translationKey": "/betting/common/euro-2024",
+            "countdownTranslationKey": "/betting/common/euro-2024",
+            "countdownGameDays": 1,
+            "path": "/euro-2024",
+            "showInNavigation": true,
+            "showInSportsTabs": true,
+            "showCountdownHeadline": true,
+            "categories": [
+              {
+                "competitionId": 1855,
+                "translationKey": "/betting/common/matches",
+                "path": "/euro-2024",
+                "showDates": true
+              },
+              {
+                "competitionId": 17391,
+                "gameIds": [23527382, 24856746, 24856747, 24938640],
+                "outrightMarketTypes": [
+                  "Winner",
+                  "ToReachTheFinal",
+                  "ToReachSemi-Final",
+                  "SpecialsTotal"
+                ],
+                "translationKey": "/betting/common/outright",
+                "path": "/euro-2024/outright",
+                "isOutright": true
+              },
+              {
+                "competitionId": 18278328,
+                "translationKey": "/betting/common/matchday-statistics",
+                "path": "/euro-2024/matchday-statistics"
+              }
+            ]
+          },
+          "Layout_ShowLessCasinoGamesOnInitialRender": false,
+          "Layout_ShowMobileLandingPage": false,
+          "Layout_ShowOddsFormatInsideBetslip": false,
+          "Layout_ShowPeriodicRebates": true,
+          "Layout_ShowPeriodicRebatesForCurrencies": {
+            "currencies": ["SGD", "MYR"]
+          },
+          "Layout_ShowPredictor": true,
+          "Layout_ShowPredictorForCurrenciesOrAreas": {
+            "currencies": ["SGD", "MYR", "AUD", "EUR", "USD", "IDR"],
+            "areas": [
+              "AF",
+              "AL",
+              "DZ",
+              "AS",
+              "AD",
+              "AO",
+              "AI",
+              "AQ",
+              "AG",
+              "AR",
+              "AM",
+              "AW",
+              "AU",
+              "AT",
+              "AZ",
+              "BS",
+              "BH",
+              "BD",
+              "BB",
+              "BY",
+              "BE",
+              "BZ",
+              "BJ",
+              "BM",
+              "BT",
+              "BO",
+              "BA",
+              "BW",
+              "BV",
+              "BR",
+              "IO",
+              "BN",
+              "BG",
+              "BF",
+              "BI",
+              "CV",
+              "KH",
+              "CM",
+              "CA",
+              "KY",
+              "CF",
+              "TD",
+              "CL",
+              "CN",
+              "CX",
+              "CC",
+              "CO",
+              "KM",
+              "CG",
+              "CD",
+              "CK",
+              "CR",
+              "CI",
+              "HR",
+              "CU",
+              "CY",
+              "CZ",
+              "DK",
+              "DJ",
+              "DM",
+              "DO",
+              "EC",
+              "EG",
+              "SV",
+              "GQ",
+              "ER",
+              "EE",
+              "SZ",
+              "ET",
+              "FK",
+              "FO",
+              "FJ",
+              "FI",
+              "FR",
+              "GF",
+              "PF",
+              "TF",
+              "GA",
+              "GM",
+              "GE",
+              "DE",
+              "GH",
+              "GI",
+              "GR",
+              "GL",
+              "GD",
+              "GP",
+              "GU",
+              "GT",
+              "GN",
+              "GW",
+              "GY",
+              "HT",
+              "HM",
+              "HN",
+              "HK",
+              "HU",
+              "IS",
+              "IN",
+              "ID",
+              "IR",
+              "IQ",
+              "IE",
+              "IL",
+              "IT",
+              "JM",
+              "JP",
+              "JO",
+              "KZ",
+              "KE",
+              "KI",
+              "KP",
+              "KR",
+              "KW",
+              "KG",
+              "LA",
+              "LV",
+              "LB",
+              "LS",
+              "LR",
+              "LY",
+              "LI",
+              "LT",
+              "LU",
+              "MO",
+              "MK",
+              "MG",
+              "MW",
+              "MY",
+              "MV",
+              "ML",
+              "MT",
+              "MH",
+              "MQ",
+              "MR",
+              "MU",
+              "YT",
+              "MX",
+              "FM",
+              "MD",
+              "MC",
+              "MN",
+              "ME",
+              "MS",
+              "MA",
+              "MZ",
+              "MM",
+              "NA",
+              "NR",
+              "NP",
+              "NL",
+              "AN",
+              "NC",
+              "NZ",
+              "NI",
+              "NE",
+              "NG",
+              "NU",
+              "NF",
+              "MP",
+              "NO",
+              "OM",
+              "PK",
+              "PW",
+              "PS",
+              "PA",
+              "PG",
+              "PY",
+              "PE",
+              "PH",
+              "PN",
+              "PL",
+              "PT",
+              "PR",
+              "QA",
+              "RE",
+              "RO",
+              "RU",
+              "RW",
+              "BL",
+              "SH",
+              "KN",
+              "LC",
+              "MF",
+              "PM",
+              "VC",
+              "WS",
+              "SM",
+              "ST",
+              "SA",
+              "SN",
+              "RS",
+              "SC",
+              "SL",
+              "SG",
+              "SK",
+              "SI",
+              "SB",
+              "SO",
+              "ZA",
+              "GS",
+              "ES",
+              "LK",
+              "SD",
+              "SR",
+              "SJ",
+              "SE",
+              "CH",
+              "SY",
+              "TW",
+              "TJ",
+              "TZ",
+              "TH",
+              "TL",
+              "TG",
+              "TK",
+              "TO",
+              "TT",
+              "TN",
+              "TR",
+              "TM",
+              "TC",
+              "TV",
+              "UG",
+              "UA",
+              "AE",
+              "GB",
+              "US",
+              "UM",
+              "UY",
+              "UZ",
+              "VU",
+              "VA",
+              "VE",
+              "VN",
+              "VG",
+              "VI",
+              "WF",
+              "EH",
+              "YE",
+              "ZM",
+              "ZW"
+            ]
+          },
+          "Layout_ShowRebates": true,
+          "Layout_ShowRecentWinners_Desktop": true,
+          "Layout_ShowRecentWinners_Mobile": false,
+          "Layout_ShowRecentWithdraw_Desktop": true,
+          "Layout_ShowRecentWithdraw_Mobile": false,
+          "Layout_ShowRescueRebates": true,
+          "Layout_ShowWatchers": false,
+          "Layout_UsePaymentRebates": true,
+          "Layout_vipCountries": ["AT", "MY", "SG", "RS", "LK"],
+          "Main_AffiliateContactEmail": null,
+          "Main_AffiliateMerchantKey": "MkStageGemBet",
+          "Main_AffiliateShareLinks": {},
+          "Main_AffiliateSystemId": null,
+          "Main_AffiliateUrl": "https://api-pub.stg.notsogb.com/affiliate/pub",
+          "Main_AgentsPlayerDomainset": null,
+          "Main_AgentsPlayerWebpage": null,
+          "Main_asianVeiwCountries": null,
+          "Main_AvailableCurrencies": ["EUR"],
+          "Main_Betconstruct_CgPartnerId": null,
+          "Main_Betconstruct_PartnerId": 1358,
+          "Main_Betconstruct_StreamPartnerId": 1589,
+          "Main_Bonuses_HideClaimablePayin": false,
+          "Main_Bonuses_RescueIds": [],
+          "Main_BrowserTitle": "Vyking",
+          "Main_Captcha_Turnstile_Login": false,
+          "Main_Captcha_Turnstile_Signup": false,
+          "Main_Captcha_Turnstile_SiteKey": null,
+          "Main_CasinoGameFullScreenUserAgents": [],
+          "Main_content_areas": {
+            "eu": {
+              "type": "exclude",
+              "areas": ["DE"]
+            }
+          },
+          "Main_CurrencyAreas": [
+            {
+              "currency": "USD",
+              "country": ["BR"]
+            },
+            {
+              "currency": "EUR",
+              "country": ["CZ", "DE", "DN", "FI"]
+            },
+            {
+              "currency": "MYR",
+              "country": ["MY"]
+            },
+            {
+              "currency": "SGD",
+              "country": ["SG"]
+            },
+            {
+              "currency": "AUD",
+              "country": ["AU"]
+            }
+          ],
+          "Main_dissableInit3Translation": true,
+          "Main_DynamicDom": [
+            {
+              "name": "turnstileTarget",
+              "target": "body",
+              "tag": "div",
+              "innerHTML": "<div id=turnstilTarget></div>"
+            },
+            {
+              "name": "hellis",
+              "target": "head",
+              "tag": "script",
+              "innerHTML": "console.log('geht doch'); function onloadTurnstileCallback(){ console.log('turnstile callback happend'); }"
+            },
+            {
+              "name": "turnstile",
+              "target": "head",
+              "tag": "script",
+              "src": "https://challenges.cloudflare.com/turnstile/v0/api.js?onload=onloadTurnstileCallback"
+            },
+            {
+              "name": "liveScoreWidgetTarget",
+              "target": "body",
+              "tag": "div",
+              "innerHTML": "<div id=\"DOM_element_id_in_your_website_1668087788785\"></div>"
+            }
+          ],
+          "Main_EnableEmailVerification": false,
+          "Main_FeedbackCategories": [
+            {
+              "value": "Game selection",
+              "label": "/player/feedback/game-selection"
+            },
+            {
+              "value": "Website and use",
+              "label": "/player/feedback/website-and-use"
+            },
+            {
+              "value": "Payment and Withdrawal",
+              "label": "/player/feedback/payment-and-withdrawal"
+            },
+            {
+              "value": "Bonuses and Promotions",
+              "label": "/player/feedback/bonuses-and-promotions"
+            },
+            {
+              "value": "Security and Fairness",
+              "label": "/player/feedback/security-and-fairness"
+            },
+            {
+              "value": "Overall Satisfaction",
+              "label": "/player/feedback/overall-satisfaction"
+            },
+            {
+              "value": "Bug report",
+              "label": "/player/feedback/bug-report"
+            }
+          ],
+          "Main_FileUpload_MaxFileSize": 10,
+          "Main_FooterLicences": {},
+          "Main_FooterPaymentMethods": null,
+          "Main_FooterSocialMedia": {
+            "enabled": true,
+            "telegram": {
+              "icon_name": "telegram-icon",
+              "title": "Telegram",
+              "redirect_url": "https://vyking.com"
+            },
+            "twitter": {
+              "icon_name": "x-icon",
+              "title": "Twitter",
+              "redirect_url": "https://vyking.com"
+            },
+            "facebook": {
+              "icon_name": "facebook-icon",
+              "title": "Facebook",
+              "redirect_url": "https://vyking.com"
+            },
+            "instagram": {
+              "icon_name": "instagram-icon",
+              "title": "Instagram",
+              "redirect_url": "https://vyking.com"
+            },
+            "youtube": {
+              "icon_name": "youtube-icon",
+              "title": "Youtube",
+              "redirect_url": "https://vyking.com"
+            },
+            "tiktok": {
+              "icon_name": "tiktok-icon",
+              "title": "TikTok",
+              "redirect_url": "https://vyking.com"
+            }
+          },
+          "Main_forceEmailValidationFilter": null,
+          "Main_GuestChangeUsernamePrefix": "player:",
+          "Main_hasBankVerification": null,
+          "Main_hideLostPassword": null,
+          "Main_InitialRenderCasinoCategory": "",
+          "Main_Language_Default": "eng",
+          "Main_Login_Use2FA": false,
+          "Main_Login_UseMagicLink": false,
+          "Main_Login_UsePwd": false,
+          "Main_MaintenanceBell": {
+            "SGD": {
+              "active": false,
+              "endDateTime": "2024-03-25 16:30:00"
+            },
+            "MYR": {
+              "active": false,
+              "endDateTime": "2024-03-25 16:30:00"
+            },
+            "IDR": {
+              "active": false,
+              "endDateTime": "2024-03-25 16:30:00"
+            },
+            "EUR": {
+              "active": false,
+              "endDateTime": "2024-03-25 16:30:00"
+            }
+          },
+          "Main_MenuItems": [
+            {
+              "name": "prematch",
+              "translation": "/common/header/prematch-sports",
+              "path": "/prematch",
+              "maintenanceMode": false,
+              "mobileIcon": "sports.svg",
+              "hideForNotLogged": false
+            },
+            {
+              "name": "live",
+              "translation": "/common/header/live-sports",
+              "path": "/live",
+              "maintenanceMode": false,
+              "mobileIcon": "live-menu.svg",
+              "hideForNotLogged": false
+            },
+            {
+              "name": "casino",
+              "translation": "/common/header/slots-casino",
+              "path": "/slots",
+              "mobileIcon": "casino.svg",
+              "hideForNotLogged": false
+            },
+            {
+              "name": "live-casino",
+              "translation": "/common/header/live-casino",
+              "path": "/live-casino",
+              "mobileIcon": "live-casino-menu.svg",
+              "hideForNotLogged": false
+            },
+            {
+              "name": "promo",
+              "translation": "/common/header/promotions",
+              "path": "/promo",
+              "mobileIcon": "promo-menu-icon.svg",
+              "hideForNotLogged": false
+            },
+            {
+              "name": "vip",
+              "translation": "/common/header/vip-club",
+              "path": "/vip",
+              "mobileIcon": "vip-menu-icon.svg",
+              "hideForNotLogged": false
+            },
+            {
+              "name": "affiliate",
+              "translation": "/common/header/refer-a-friend",
+              "path": "/refer-a-friend",
+              "mobileIcon": "affiliate-menu-icon.svg",
+              "hideForNotLogged": true
+            }
+          ],
+          "Main_MenuItemsOrder": [
+            "prematch",
+            "live",
+            "casino",
+            "live-casino",
+            "promo",
+            "vip",
+            "affiliate"
+          ],
+          "Main_MetamaskLogin": "none",
+          "Main_MyAffiliatesBrandname": null,
+          "Main_PlayerDefaultRegisterFlags": [
+            "Playable",
+            "Accessible",
+            "SmsSubscribed",
+            "EmailSubscribedCrm",
+            "EmailSubscribedNewsletter",
+            "TelephoneSubscribed",
+            "ShowPreDepositDialog",
+            "ShowPreWithdrawDialog"
+          ],
+          "Main_PlayerRegistration_DefaultsPerCountry": {
+            "SG": {
+              "preselected_currency": "EUR",
+              "currencies": ["SGD", "MYR", "IDR", "EUR"]
+            },
+            "OTHER_EU": {
+              "preselected_currency": "EUR",
+              "currencies": ["EUR"]
+            },
+            "MY": {
+              "preselected_currency": "EUR",
+              "currencies": ["MYR", "SGD", "IDR", "EUR"]
+            },
+            "ID": {
+              "preselected_currency": "EUR",
+              "currencies": ["MYR", "SGD", "IDR", "EUR"]
+            },
+            "AU": {
+              "preselected_currency": "EUR",
+              "currencies": ["AUD", "EUR"]
+            },
+            "NZ": {
+              "preselected_currency": "EUR",
+              "currencies": ["AUD", "EUR"]
+            },
+            "OTHER": {
+              "preselected_currency": "EUR",
+              "currencies": ["USD", "EUR"]
+            }
+          },
+          "Main_PopupCloseOnClick": true,
+          "Main_PopupCloseTime": 8,
+          "Main_PopupPosition": "bottom-right",
+          "Main_PreDepositDialogConfig": ["cFirstName", "cPhone1"],
+          "Main_Prematch_LeftMenu_SeparateEsports": false,
+          "Main_Prematch_Table_GamesLength": 6,
+          "Main_Prematch_Table_SportsLength": 6,
+          "Main_PreWithdrawDialogConfig": ["cPhone1", "dBirthday"],
+          "Main_ProfileDetails": {
+            "cFirstName": {
+              "readOnly": true,
+              "required": true
+            },
+            "cLastName": {
+              "readOnly": true,
+              "required": true
+            },
+            "cEmail": {
+              "readOnly": false,
+              "required": true
+            },
+            "dBirthday": {
+              "readOnly": true,
+              "required": true
+            },
+            "cGender": {
+              "readOnly": true,
+              "required": true
+            },
+            "cCountry": {
+              "readOnly": true,
+              "required": true
+            },
+            "cPhone1": {
+              "readOnly": false,
+              "required": true
+            }
+          },
+          "Main_referAFriendCountries": ["sg"],
+          "Main_RegistrationConfig": [
+            [
+              "cEmail",
+              "cScreenname",
+              "cPassword",
+              "cCurrency",
+              "agree",
+              "affiliateCode"
+            ]
+          ],
+          "Main_RegistrationPromoCodes": [],
+          "Main_RegistrationRestrictedCountries": [
+            "AL",
+            "BA",
+            "HR",
+            "MK",
+            "MD",
+            "RU",
+            "KZ",
+            "KG",
+            "SY",
+            "CD",
+            "CG",
+            "CI",
+            "AF",
+            "VE",
+            "GN",
+            "WS",
+            "FM",
+            "AM",
+            "AO",
+            "AW",
+            "BF",
+            "KR",
+            "BG",
+            "BI",
+            "BJ",
+            "BY",
+            "BZ",
+            "BQ",
+            "CF",
+            "CV",
+            "CW",
+            "DZ",
+            "EE",
+            "EG",
+            "ER",
+            "ET",
+            "ES",
+            "FJ",
+            "FR",
+            "GA",
+            "GB",
+            "GD",
+            "GE",
+            "GM",
+            "GW",
+            "HN",
+            "HT",
+            "KI",
+            "LR",
+            "LT",
+            "LV",
+            "LY",
+            "MA",
+            "MG",
+            "MH",
+            "ML",
+            "MF",
+            "MR",
+            "MV",
+            "MT",
+            "MW",
+            "MZ",
+            "NE",
+            "NI",
+            "NR",
+            "NL",
+            "PL",
+            "PW",
+            "RO",
+            "SB",
+            "SC",
+            "SL",
+            "SO",
+            "SS",
+            "ST",
+            "SV",
+            "TD",
+            "TG",
+            "TJ",
+            "TM",
+            "TR",
+            "TV",
+            "UA",
+            "UG",
+            "US",
+            "UZ",
+            "VU",
+            "WS",
+            "YE",
+            "ZM",
+            "CY",
+            "BB",
+            "KH",
+            "KY",
+            "JM",
+            "JO",
+            "MM",
+            "PK",
+            "PA",
+            "PH",
+            "SN",
+            "ZW",
+            "CN",
+            "KP",
+            "IR",
+            "IQ",
+            "LB",
+            "ME",
+            "SD",
+            "TN",
+            "DE",
+            "AS",
+            "AD",
+            "AG",
+            "AR",
+            "AZ",
+            "BS",
+            "BH",
+            "BD",
+            "BE",
+            "BM",
+            "BT",
+            "BO",
+            "BW",
+            "BR",
+            "VG",
+            "BN",
+            "CA",
+            "CM",
+            "CL",
+            "CO",
+            "KM",
+            "CK",
+            "CR",
+            "CU",
+            "CZ",
+            "DK",
+            "DJ",
+            "DM",
+            "DO",
+            "EC",
+            "GQ",
+            "FO",
+            "FI",
+            "GH",
+            "GR",
+            "GU",
+            "GT",
+            "GY",
+            "HK",
+            "HU",
+            "IS",
+            "IN",
+            "IE",
+            "IL",
+            "IT",
+            "JP",
+            "KE",
+            "KW",
+            "LA",
+            "LS",
+            "LI",
+            "LU",
+            "MU",
+            "MX",
+            "MC",
+            "MN",
+            "NA",
+            "NP",
+            "NZ",
+            "NG",
+            "NO",
+            "OM",
+            "PS",
+            "PG",
+            "PY",
+            "PE",
+            "PT",
+            "PR",
+            "QA",
+            "ZA",
+            "RW",
+            "KN",
+            "LC",
+            "VC",
+            "SM",
+            "SA",
+            "SK",
+            "LK",
+            "SZ",
+            "SE",
+            "CH",
+            "TW",
+            "TZ",
+            "TH",
+            "TL",
+            "TO",
+            "TT",
+            "AE",
+            "VI",
+            "UY",
+            "VN"
+          ],
+          "Main_RequireEmailValidation": false,
+          "Main_RescueRebateConfig": {
+            "start": "2024-02-04T09:00:00",
+            "totalperiodlength": 604800,
+            "availableduration": 86400,
+            "currencyallowed": ["EUR"]
+          },
+          "Main_RestrictedCountries": null,
+          "Main_RestrictedRegistrationButton": [],
+          "Main_RestrictedSiteAreas": {
+            "Regular": {
+              "exclude": ["/bonus", "/promo"],
+              "currencies": ["IDR"]
+            },
+            "Agentplayer": {
+              "exclude": [
+                "/bonus",
+                "/promo",
+                "/deposit",
+                "/withdraw",
+                "/account/bonuses",
+                "/account/voucher"
+              ]
+            },
+            "loggedOut": {
+              "AT": {
+                "exclude": []
+              }
+            }
+          },
+          "Main_SbMaxWinEnforce": false,
+          "Main_Selfexclusion_Autoexpire": false,
+          "Main_Selfexclusion_Blocklogin": false,
+          "Main_Selfexclusion_Periods": {
+            "one-day": 24,
+            "one-week": 168
+          },
+          "Main_Selfexclusion_PeriodsProduct": {
+            "three-days": 72,
+            "two-weeks": 336,
+            "one-month": 720,
+            "three-months": 2160,
+            "six-months": 4320
+          },
+          "Main_Selfexclusion_PeriodsTimeOut": {
+            "one-day": 24,
+            "one-week": 168,
+            "two-week": 336,
+            "one-month": 720,
+            "three-months": 2160
+          },
+          "Main_ShowAccountPages": {
+            "myBets": true,
+            "favouriteGames": true,
+            "wallet": true,
+            "voucher": true,
+            "bonuses": true,
+            "verification": true,
+            "password": true,
+            "selfExclusion": true,
+            "notifications": true,
+            "profits": true,
+            "transactions": true,
+            "messages": true,
+            "preferences": true,
+            "accountDetails": true,
+            "rebates": true,
+            "feedback": true
+          },
+          "Main_ShowAvailableBoni": null,
+          "Main_ShowBonuses": true,
+          "Main_ShowCasinoCategoryTitle": true,
+          "Main_ShowCasinoDemoMode": true,
+          "Main_ShowCasinoFavGames": null,
+          "Main_ShowCasinoRecGames": null,
+          "Main_ShowCuracaoLicence": {},
+          "Main_ShowCurrencySymbol": true,
+          "Main_ShowDepositReminderPopUp": true,
+          "Main_ShowHomeMenu": true,
+          "Main_ShowNewMessage": false,
+          "Main_ShowNewPayment": false,
+          "Main_ShowNewPromotionPage": false,
+          "Main_ShowNoFirstDepositMarker": true,
+          "Main_ShowPrematchLive": true,
+          "Main_ShowPrematchTop": true,
+          "Main_ShowPrematchUpcoming": true,
+          "Main_ShowProfileDocuments": true,
+          "Main_ShowProfileReports": true,
+          "Main_ShowProfileSelfLimits": true,
+          "Main_ShowQRCodeLogin": false,
+          "Main_ShowRegisterButtons": true,
+          "Main_ShowRegisterScreenname": null,
+          "Main_ShowUpgradeAccountReminderPopUp": true,
+          "Main_ShowUserSettings": false,
+          "Main_ShowWelcomePage": false,
+          "Main_ShowWhatsAppPopUp": false,
+          "Main_SignUpBanner": {
+            "countryMap": {
+              "alpha3-currencyCode": ["sgp", "mal", "alpha2-country-code"],
+              "myr": ["my"],
+              "eur": ["at", "de"]
+            },
+            "languageMap": {
+              "en": {
+                "default": "/bin_images/signup_background_image",
+                "sgd": "/bin_images/signup_background_image-sgd-en",
+                "myr": "/bin_images/signup_background_image-myr"
+              }
+            }
+          },
+          "Main_SpecificCountriesRegistrationSettings": [],
+          "Main_StyleMode": "light",
+          "Main_UniquePhoneNb": true,
+          "Main_Url_CasinoCategory": "%WEBCLIENT%/index.php?r=category/res&id=%ID%",
+          "Main_Url_Content": "https://content-demo.vyking.com",
+          "Main_Url_EMailForgotPassword": "",
+          "Main_Url_Kpi": null,
+          "Main_Url_PlayerAvatarView": "",
+          "Main_Url_ProfileAvatarUpload": "",
+          "Main_Url_ProfileDocumentUpload": "",
+          "Main_Url_ProfileDocumentView": null,
+          "Main_Url_SwarmWebSocket": "wss://eu-swarm-ws-re.deimosphobos.net/",
+          "Main_Url_WebClient": "https://web-client-demo.vyking.com",
+          "Main_vipCurrencies": ["EUR"],
+          "Main_VipSystemEnabled": true,
+          "Main_vipTableCountries": ["sg", "my"],
+          "Main_vipTableGrades": [
+            "classic",
+            "bronze",
+            "silver",
+            "gold",
+            "platinum",
+            "diamond"
+          ],
+          "Messages_ShowMessages": true,
+          "Messages_Url_PlayerMessage": "",
+          "Messages_Url_PlayerMessages": "",
+          "Messages_Url_PlayerSupport": "",
+          "Messages_Url_PlayerTicket": "",
+          "MoneyTypes_Deposit": [
+            {
+              "id": 1001,
+              "name": "VISA"
+            },
+            {
+              "id": 1002,
+              "name": "MASTERCARD"
+            },
+            {
+              "id": 1003,
+              "name": "CHEQUE"
+            },
+            {
+              "id": 1005,
+              "name": "WIRE"
+            },
+            {
+              "id": 1006,
+              "name": "NETELLER"
+            },
+            {
+              "id": 1007,
+              "name": "VOLT"
+            },
+            {
+              "id": 1008,
+              "name": "SKRILL"
+            },
+            {
+              "id": 1009,
+              "name": "PAYSAFECARD"
+            },
+            {
+              "id": 1010,
+              "name": "ECOCARD"
+            },
+            {
+              "id": 1011,
+              "name": "EPASSPORTE"
+            },
+            {
+              "id": 1014,
+              "name": "DIRECTCASH"
+            },
+            {
+              "id": 1015,
+              "name": "CLICKANDBUY"
+            },
+            {
+              "id": 1016,
+              "name": "UKASH"
+            },
+            {
+              "id": 1017,
+              "name": "WEBMONEY"
+            },
+            {
+              "id": 1019,
+              "name": "PAYPAL"
+            },
+            {
+              "id": 1021,
+              "name": "TOGGLECARD"
+            },
+            {
+              "id": 1022,
+              "name": "WESTERNUNION"
+            },
+            {
+              "id": 1023,
+              "name": "PAYGEA"
+            },
+            {
+              "id": 1024,
+              "name": "PIC"
+            },
+            {
+              "id": 1025,
+              "name": "ENVOY"
+            },
+            {
+              "id": 1026,
+              "name": "CLICK2PAY"
+            },
+            {
+              "id": 1027,
+              "name": "MOBILE"
+            },
+            {
+              "id": 1028,
+              "name": "INTERFACE RM"
+            },
+            {
+              "id": 1029,
+              "name": "MAESTRO"
+            },
+            {
+              "id": 1030,
+              "name": "DINERS"
+            },
+            {
+              "id": 1031,
+              "name": "AMERICANEXPRESS"
+            },
+            {
+              "id": 1033,
+              "name": "MONETA"
+            },
+            {
+              "id": 1034,
+              "name": "CTOPAY"
+            },
+            {
+              "id": 1035,
+              "name": "PAYBOX"
+            },
+            {
+              "id": 1036,
+              "name": "TESTER"
+            },
+            {
+              "id": 1037,
+              "name": "POKERWALLET"
+            },
+            {
+              "id": 1038,
+              "name": "SOFORTUEBERWEISUNG"
+            },
+            {
+              "id": 1039,
+              "name": "PRIVATETELLER"
+            },
+            {
+              "id": 1040,
+              "name": "PAYVISION"
+            },
+            {
+              "id": 1041,
+              "name": "ETRADE"
+            },
+            {
+              "id": 1042,
+              "name": "WEBBILLING"
+            },
+            {
+              "id": 1043,
+              "name": "JCB"
+            },
+            {
+              "id": 1044,
+              "name": "INTERFACE PP PM"
+            },
+            {
+              "id": 1045,
+              "name": "INTERFACE PM"
+            },
+            {
+              "id": 1046,
+              "name": "INTERFACE PP RM"
+            },
+            {
+              "id": 1047,
+              "name": "2POKER"
+            },
+            {
+              "id": 1048,
+              "name": "MYPAYLINQ"
+            },
+            {
+              "id": 1049,
+              "name": "EWALLETXPRESS"
+            },
+            {
+              "id": 1050,
+              "name": "USEMYWALLET"
+            },
+            {
+              "id": 1051,
+              "name": "PACNETSERVICES"
+            },
+            {
+              "id": 1052,
+              "name": "CASINO ARCADE MEDIALIVE OLD"
+            },
+            {
+              "id": 1053,
+              "name": "CASINO ARCADE WIREX OLD"
+            },
+            {
+              "id": 1054,
+              "name": "DINEROMAIL"
+            },
+            {
+              "id": 1055,
+              "name": "PREPAIDCODE"
+            },
+            {
+              "id": 1056,
+              "name": "MONEYLINEWALLET"
+            },
+            {
+              "id": 1059,
+              "name": "CCMISC"
+            },
+            {
+              "id": 1060,
+              "name": "CEPBANK"
+            },
+            {
+              "id": 1061,
+              "name": "APCO"
+            },
+            {
+              "id": 1062,
+              "name": "DEVCODE"
+            },
+            {
+              "id": 1066,
+              "name": "PEAKWALLET"
+            },
+            {
+              "id": 1072,
+              "name": "A1WORLD"
+            },
+            {
+              "id": 1081,
+              "name": "VISA-EMP"
+            },
+            {
+              "id": 1082,
+              "name": "MASTERCARD-EMP"
+            },
+            {
+              "id": 1083,
+              "name": "DINERS EMP"
+            },
+            {
+              "id": 1084,
+              "name": "MAESTRO-EMP"
+            },
+            {
+              "id": 1085,
+              "name": "QUICKBIT"
+            },
+            {
+              "id": 1086,
+              "name": "CASH2CODE"
+            },
+            {
+              "id": 1087,
+              "name": "MUCHBETTER"
+            },
+            {
+              "id": 1088,
+              "name": "SUREPAY"
+            },
+            {
+              "id": 1089,
+              "name": "VISA-REALDEPOSITS"
+            },
+            {
+              "id": 1090,
+              "name": "COINSPAID"
+            },
+            {
+              "id": 1091,
+              "name": "EZEEWALLET"
+            },
+            {
+              "id": 1092,
+              "name": "PAYNOW"
+            },
+            {
+              "id": 1093,
+              "name": "EMERCHANTPAY"
+            },
+            {
+              "id": 1094,
+              "name": "UTORG"
+            },
+            {
+              "id": 1095,
+              "name": "ONRAMPER"
+            },
+            {
+              "id": 1096,
+              "name": "VOUCHER"
+            },
+            {
+              "id": 1097,
+              "name": "B2BINPAY"
+            },
+            {
+              "id": 1098,
+              "name": "TRUEPAY"
+            },
+            {
+              "id": 1099,
+              "name": "K1NGPAY"
+            },
+            {
+              "id": 1100,
+              "name": "EWIRE"
+            },
+            {
+              "id": 1101,
+              "name": "LUXONPAY"
+            },
+            {
+              "id": 1102,
+              "name": "BANKWIRE UMBRELLA"
+            },
+            {
+              "id": 1103,
+              "name": "COMMUNITY BANKING"
+            },
+            {
+              "id": 1104,
+              "name": "CLOUDCASH"
+            },
+            {
+              "id": 1105,
+              "name": "D24"
+            },
+            {
+              "id": 1106,
+              "name": "K1NGPAY_2"
+            }
+          ],
+          "MoneyTypes_Withdraw": [
+            {
+              "id": 2001,
+              "name": "VISA"
+            },
+            {
+              "id": 2002,
+              "name": "MASTERCARD"
+            },
+            {
+              "id": 2003,
+              "name": "CHEQUE"
+            },
+            {
+              "id": 2005,
+              "name": "WIRE"
+            },
+            {
+              "id": 2006,
+              "name": "NETELLER"
+            },
+            {
+              "id": 2007,
+              "name": "VOLT"
+            },
+            {
+              "id": 2008,
+              "name": "SKRILL"
+            },
+            {
+              "id": 2009,
+              "name": "PAYSAFECARD"
+            },
+            {
+              "id": 2010,
+              "name": "ECOCARD"
+            },
+            {
+              "id": 2011,
+              "name": "EPASSPORTE"
+            },
+            {
+              "id": 2014,
+              "name": "DIRECTCASH"
+            },
+            {
+              "id": 2015,
+              "name": "CLICKANDBUY"
+            },
+            {
+              "id": 2016,
+              "name": "UKASH"
+            },
+            {
+              "id": 2017,
+              "name": "WEBMONEY"
+            },
+            {
+              "id": 2019,
+              "name": "PAYPAL"
+            },
+            {
+              "id": 2021,
+              "name": "TOGGLECARD"
+            },
+            {
+              "id": 2022,
+              "name": "WESTERNUNION"
+            },
+            {
+              "id": 2023,
+              "name": "PAYGEA"
+            },
+            {
+              "id": 2024,
+              "name": "PIC"
+            },
+            {
+              "id": 2025,
+              "name": "ENVOY"
+            },
+            {
+              "id": 2026,
+              "name": "CLICK2PAY"
+            },
+            {
+              "id": 2027,
+              "name": "MOBILE"
+            },
+            {
+              "id": 2028,
+              "name": "INTERFACE RM"
+            },
+            {
+              "id": 2029,
+              "name": "MAESTRO"
+            },
+            {
+              "id": 2030,
+              "name": "DINERS"
+            },
+            {
+              "id": 2031,
+              "name": "AMERICANEXPRESS"
+            },
+            {
+              "id": 2033,
+              "name": "MONETA"
+            },
+            {
+              "id": 2034,
+              "name": "CTOPAY"
+            },
+            {
+              "id": 2035,
+              "name": "PAYBOX"
+            },
+            {
+              "id": 2036,
+              "name": "TESTER"
+            },
+            {
+              "id": 2037,
+              "name": "POKERWALLET"
+            },
+            {
+              "id": 2038,
+              "name": "SOFORTUEBERWEISUNG"
+            },
+            {
+              "id": 2039,
+              "name": "PRIVATETELLER"
+            },
+            {
+              "id": 2040,
+              "name": "PAYVISION"
+            },
+            {
+              "id": 2041,
+              "name": "ETRADE"
+            },
+            {
+              "id": 2042,
+              "name": "WEBBILLING"
+            },
+            {
+              "id": 2043,
+              "name": "JCB"
+            },
+            {
+              "id": 2044,
+              "name": "INTERFACE PP PM"
+            },
+            {
+              "id": 2045,
+              "name": "INTERFACE PM"
+            },
+            {
+              "id": 2046,
+              "name": "INTERFACE PP RM"
+            },
+            {
+              "id": 2047,
+              "name": "2POKER"
+            },
+            {
+              "id": 2048,
+              "name": "MYPAYLINQ"
+            },
+            {
+              "id": 2049,
+              "name": "EWALLETXPRESS"
+            },
+            {
+              "id": 2050,
+              "name": "USEMYWALLET"
+            },
+            {
+              "id": 2051,
+              "name": "PACNETSERVICES"
+            },
+            {
+              "id": 2052,
+              "name": "CASINO ARCADE MEDIALIVE OLD"
+            },
+            {
+              "id": 2053,
+              "name": "CASINO ARCADE WIREX OLD"
+            },
+            {
+              "id": 2054,
+              "name": "DINEROMAIL"
+            },
+            {
+              "id": 2055,
+              "name": "PREPAIDCODE"
+            },
+            {
+              "id": 2056,
+              "name": "MONEYLINEWALLET"
+            },
+            {
+              "id": 2059,
+              "name": "CCMISC"
+            },
+            {
+              "id": 2060,
+              "name": "CEPBANK"
+            },
+            {
+              "id": 2061,
+              "name": "APCO"
+            },
+            {
+              "id": 2062,
+              "name": "DEVCODE"
+            },
+            {
+              "id": 2066,
+              "name": "PEAKWALLET"
+            },
+            {
+              "id": 2085,
+              "name": "QUICKBIT"
+            },
+            {
+              "id": 2086,
+              "name": "CASH2CODE"
+            },
+            {
+              "id": 2087,
+              "name": "MUCHBETTER"
+            },
+            {
+              "id": 2088,
+              "name": "SUREPAY"
+            },
+            {
+              "id": 2089,
+              "name": "VISA-REALDEPOSITS"
+            },
+            {
+              "id": 2090,
+              "name": "COINSPAID"
+            },
+            {
+              "id": 2091,
+              "name": "EZEEWALLET"
+            },
+            {
+              "id": 2092,
+              "name": "PAYNOW"
+            },
+            {
+              "id": 2093,
+              "name": "EMERCHANTPAY"
+            },
+            {
+              "id": 2094,
+              "name": "UTORG"
+            },
+            {
+              "id": 2095,
+              "name": "ONRAMPER"
+            },
+            {
+              "id": 2096,
+              "name": "VOUCHER"
+            },
+            {
+              "id": 2097,
+              "name": "B2BINPAY"
+            },
+            {
+              "id": 2098,
+              "name": "TRUEPAY"
+            },
+            {
+              "id": 2099,
+              "name": "K1NGPAY"
+            },
+            {
+              "id": 2100,
+              "name": "EWIRE"
+            },
+            {
+              "id": 2101,
+              "name": "LUXONPAY"
+            },
+            {
+              "id": 2102,
+              "name": "BANKWIRE UMBRELLA"
+            },
+            {
+              "id": 2103,
+              "name": "COMMUNITY BANKING"
+            },
+            {
+              "id": 2104,
+              "name": "CLOUDCASH"
+            },
+            {
+              "id": 2105,
+              "name": "D24"
+            },
+            {
+              "id": 2106,
+              "name": "K1NGPAY_2"
+            }
+          ],
+          "Payment_BankAccountAvailability": [],
+          "Payment_BankCodeList": {},
+          "Payment_Banktransfer_Default": "iban",
+          "Payment_Banktransfer_ShowAccountNumber": false,
+          "Payment_Banktransfer_ShowIBAN": true,
+          "Payment_Cashier_PreselectedChannel": null,
+          "Payment_CheckVoucherWithdrawVerifiedBankAccount": null,
+          "Payment_ImagesInFooter": [
+            "VISA",
+            "MASTER-CARD",
+            "PAYSAFECARD",
+            "BANK-TRANSFER",
+            "NETELLER",
+            "SKRILL"
+          ],
+          "Payment_PaynowPopup": null,
+          "Payment_ShortcutChannel_Limit": {
+            "DuitNow": {
+              "min": 1000,
+              "max": 5000
+            },
+            "TouchNGo": {
+              "min": 2000,
+              "max": 6000
+            }
+          },
+          "Payment_ShowDevCode": false,
+          "Payment_ShowPayments": true,
+          "Payment_TruePay_BankMaintenance": {
+            "DuitNow": "status-here",
+            "TouchNGo": "status-here",
+            "sample1": "disabled",
+            "sample2": "maintenance"
+          },
+          "Payment_Url_Deposit": "",
+          "Payment_Url_Withdraw": "",
+          "Payment_WithdrawBankLimit": {
+            "TNGQR": {
+              "min": 5000,
+              "max": 500000
+            }
+          },
+          "Payment_WithdrawIsBlockedByToRequirement": false,
+          "Seal_ShowFakeSeal": false,
+          "Seal_UID": "",
+          "Seal_Url_FakeSeal": null,
+          "Seal_Url_Seal": "",
+          "WEBSITE_AFF_EMAIL": null,
+          "WEBSITE_CASHIER_EMAIL": "variable_string",
+          "WEBSITE_CASINO_TERMS_CHECKDATE": null,
+          "WEBSITE_MARKETING_EMAIL": "variable_string",
+          "WEBSITE_NEWSLETTER_EMAIL": null,
+          "WEBSITE_OPERATION_EMAIL": "variable_string",
+          "WEBSITE_SUPPORT_EMAIL": "variable_string",
+          "WEBSITE_TOURNAMENT_EMAIL": "variable_string",
+          "Main_Language_Available": {
+            "eng": {
+              "full": "English",
+              "alpha2": "EN",
+              "alpha3": "eng",
+              "country": "en_us"
+            }
+          }
+        },
+        "countryAlpha2": "RS",
+        "skin": {
+          "id": 1141,
+          "casinoId": 10
+        },
+        "token": "1710c05c0ca0bf1bf1d240479bdf90be",
+        "tokenExtra": null,
+        "tokenExpiresOn": 1720309649,
+        "tokenExpiresIn": 1800,
+        "language_alpha3": "eng",
+        "translation": [],
+        "player": null
+      }
+    },
+    {
+      "event": "/ie/casinoGames/jackpot/changed",
+      "status": 200,
+      "payload": {
+        "currency": "USD",
+        "details": []
+      }
+    },
+    {
+      "event": "/se/payment/withdraw/bigSub",
+      "status": 200,
+      "payload": [
+        {
+          "ts": "2024-03-01T12:14:15Z",
+          "withdraw": 7000,
+          "deposit": 2000,
+          "player": "****sTe**",
+          "currency": "EUR"
+        },
+        {
+          "ts": "2024-03-01T12:11:55Z",
+          "withdraw": 30000,
+          "deposit": 30000,
+          "player": "****_F**",
+          "currency": "EUR"
+        },
+        {
+          "ts": "2024-03-01T12:09:29Z",
+          "withdraw": 75000,
+          "deposit": 5000,
+          "player": "****twasc**",
+          "currency": "EUR"
+        },
+        {
+          "ts": "2024-03-01T11:29:37Z",
+          "withdraw": 203000,
+          "deposit": 5000,
+          "player": "****twasc**",
+          "currency": "EUR"
+        },
+        {
+          "ts": "2024-03-01T11:16:30Z",
+          "withdraw": 21000,
+          "deposit": 5000,
+          "player": "****twasc**",
+          "currency": "EUR"
+        },
+        {
+          "ts": "2024-03-01T10:38:53Z",
+          "withdraw": 5000,
+          "deposit": 3000,
+          "player": "****emov**",
+          "currency": "EUR"
+        },
+        {
+          "ts": "2024-03-01T10:38:07Z",
+          "withdraw": 50000,
+          "deposit": 5000,
+          "player": "****twasc**",
+          "currency": "EUR"
+        }
+      ]
+    },
+    {
+      "event": "/ie/connection/info",
+      "status": 200,
+      "payload": {
+        "v": -1
+      }
+    },
+    {
+      "event": "/se/connection/init3",
+      "status": 200,
+      "payload": {
+        "config": {
+          "A1_Url_Payment_Deposit": "",
+          "A1_Url_Receipt": "",
+          "A1_Url_SessionTimeout_Redirect": "",
+          "Betting_AcceptPriceChanges": 0,
+          "Betting_AllowPredictionChange": false,
+          "Betting_BCLiveStreamHost": "stream1.streamservers.info:7791",
+          "Betting_Boosted_AllowedNetrefIds": null,
+          "Betting_Boosted_BlockingEvents": [],
+          "Betting_Boosted_BonusTemplateId": null,
+          "Betting_Boosted_Config": [],
+          "Betting_Boosted_Enabled": false,
+          "Betting_Boosted_Events": [],
+          "Betting_Boosted_IgnoreNetrefIds": false,
+          "Betting_Boosted_MaxStake": 0,
+          "Betting_Boosted_NewPrices": [],
+          "Betting_Boosted_PromotionLink": "#",
+          "Betting_Dropdown_PopularMarket": {},
+          "Betting_EnableBetBooking": false,
+          "Betting_PredictorEventPopularPredictionsNumber": 3,
+          "Betting_PrintBetslip": false,
+          "Betting_PromotedGame_MarketID": 0,
+          "Betting_RegionCompetitionOrder": {
+            "popularOrder": {
+              "1": {
+                "10001": [
+                  {
+                    "competitionId": 3042,
+                    "order": 1
+                  },
+                  {
+                    "competitionId": 3035,
+                    "order": 14
+                  },
+                  {
+                    "competitionId": 4171,
+                    "order": 6
+                  },
+                  {
+                    "competitionId": 573,
+                    "order": 10
+                  },
+                  {
+                    "competitionId": 18288060,
+                    "order": 2
+                  }
+                ],
+                "20001": [
+                  {
+                    "competitionId": 566,
+                    "order": 7
+                  },
+                  {
+                    "competitionId": 18284622,
+                    "order": 8
+                  },
+                  {
+                    "competitionId": 1861,
+                    "order": 3
+                  },
+                  {
+                    "competitionId": 18278410,
+                    "order": 1
+                  }
+                ],
+                "60001": [
+                  {
+                    "competitionId": 2988,
+                    "order": 11
+                  }
+                ],
+                "420001": [
+                  {
+                    "competitionId": 1806,
+                    "order": 1
+                  }
+                ],
+                "830001": [
+                  {
+                    "competitionId": 548,
+                    "order": 6
+                  }
+                ],
+                "900001": [
+                  {
+                    "competitionId": 541,
+                    "order": 5
+                  },
+                  {
+                    "competitionId": 1876,
+                    "order": 13
+                  }
+                ],
+                "1170001": [
+                  {
+                    "competitionId": 543,
+                    "order": 4
+                  }
+                ],
+                "2150001": [
+                  {
+                    "competitionId": 545,
+                    "order": 3
+                  }
+                ],
+                "2420001": [
+                  {
+                    "competitionId": 3025,
+                    "order": 10
+                  }
+                ],
+                "2570001": [
+                  {
+                    "competitionId": 538,
+                    "order": 2
+                  },
+                  {
+                    "competitionId": 1840,
+                    "order": 12
+                  }
+                ]
+              },
+              "3": {
+                "50003": [
+                  {
+                    "competitionId": 756,
+                    "order": 1
+                  },
+                  {
+                    "competitionId": 757,
+                    "order": 2
+                  }
+                ],
+                "210003": [
+                  {
+                    "competitionId": 637,
+                    "order": 3
+                  }
+                ],
+                "1260003": [
+                  {
+                    "competitionId": 743,
+                    "order": 4
+                  }
+                ]
+              },
+              "4": {
+                "830004": [
+                  {
+                    "competitionId": 11424,
+                    "order": 6
+                  },
+                  {
+                    "competitionId": 11425,
+                    "order": 7
+                  },
+                  {
+                    "competitionId": 22739,
+                    "order": 8
+                  }
+                ],
+                "1170004": [
+                  {
+                    "competitionId": 1257,
+                    "order": 5
+                  }
+                ],
+                "1540004": [
+                  {
+                    "competitionId": 1288,
+                    "order": 2
+                  }
+                ],
+                "2150004": [
+                  {
+                    "competitionId": 4643,
+                    "order": 3
+                  },
+                  {
+                    "competitionId": 10111,
+                    "order": 4
+                  }
+                ],
+                "2220004": [
+                  {
+                    "competitionId": 11389,
+                    "order": 9
+                  }
+                ],
+                "2420004": [
+                  {
+                    "competitionId": 1388,
+                    "order": 1
+                  }
+                ]
+              }
+            },
+            "regionOrder": {
+              "1": [1900001, 2150001, 1170001, 900001, 830001, 20001, 10001]
+            }
+          },
+          "Betting_ShowSportBanners": true,
+          "Betting_ShowUniqueRegion": false,
+          "Betting_TimeFilterRanges": [6, 12, 24, 72],
+          "Betting_UniqueCompetitionsId": [],
+          "Betting_UniqueRegionId": 0,
+          "Betting_UniqueRegionImageName": "world-cup.jpg",
+          "Casino_GameProviderOrder": [],
+          "Casino_GridCellsBorderRadius": 10,
+          "Casino_GridCellsMax": 0,
+          "Casino_GridCellsMin": 2,
+          "Casino_GridColMinWidth": 200,
+          "Casino_GridGameResSizes": {
+            "sm": 150,
+            "xl": 250
+          },
+          "Casino_GridOuterBottomPadding": 10,
+          "Casino_GridOuterLeftPadding": 50,
+          "Casino_GridOuterRightPadding": 50,
+          "Casino_GridOuterTopPadding": 10,
+          "Casino_GridRatioHeight": 3,
+          "Casino_GridRatioWidth": 4,
+          "Casino_GridShowGameName": true,
+          "Casino_GridShowGameNamePosition": "outside_bottom",
+          "Casino_GridSpacing": 10,
+          "Casino_ProviderNoCat": false,
+          "Casino_ShowCasinoBanners": true,
+          "Casino_ShowProviderSearchBar": true,
+          "Casino_ShowRecentBigWinners": true,
+          "DevCode_MerchantId": 100257994,
+          "DevCode_MoneyTypeMap": null,
+          "DevCode_TestMode": true,
+          "DevCode_UrlCashier": "https://pay.paymentiq.io/cashier/cashier.js",
+          "Integration_Partner_Betconstruct": "default",
+          "Integration_Partner_Betswap": "default",
+          "Integration_Partner_Mic": "default",
+          "Integration_Partner_Playtech": "default",
+          "Integration_Partner_Slotegrator": "default",
+          "Integration_Partner_Softswiss": "default",
+          "Integration_Partner_TimelessTech": "default",
+          "Layout_CasinoCategoryRows": [3, 2, 4],
+          "Layout_CasinoCategoryUseHardcoded": true,
+          "Layout_DesktopMenuDrawerItems": {
+            "DesktopAccountMenu": {
+              "group-1": [
+                {
+                  "menuName": "myBets",
+                  "menuIconSrc": "my-bets-menu.svg",
+                  "menuTranslationKey": "/betting/betslip/my-bets-title",
+                  "menuCTA": {
+                    "path": "/my-bets"
+                  }
+                },
+                {
+                  "menuName": "bonuses",
+                  "menuIconSrc": "bonuses-menu.svg",
+                  "menuTranslationKey": "/player/wallet/bonuses",
+                  "menuCTA": {
+                    "path": "/account/bonuses"
+                  }
+                },
+                {
+                  "menuName": "rebates",
+                  "menuIconSrc": "rebates-menu.svg",
+                  "menuTranslationKey": "/player/wallet/rebates",
+                  "menuCTA": {
+                    "path": "/account/rebates"
+                  }
+                },
+                {
+                  "menuName": "vip",
+                  "menuIconSrc": "vip-menu.svg",
+                  "menuTranslationKey": "/common/header/vip-club",
+                  "menuCTA": {
+                    "path": "/account/vip"
+                  }
+                },
+                {
+                  "menuName": "favouriteGames",
+                  "menuIconSrc": "favorite-games-menu.svg",
+                  "menuTranslationKey": "/betting/common/favourite-games-title",
+                  "menuCTA": {
+                    "path": "/account/casino-user-favorites"
+                  }
+                }
+              ],
+              "group-2": [
+                {
+                  "menuName": "voucher",
+                  "menuIconSrc": "voucher-menu.svg",
+                  "menuTranslationKey": "/player/wallet/voucher",
+                  "menuCTA": {
+                    "path": "/account/voucher"
+                  }
+                },
+                {
+                  "menuName": "transactions",
+                  "menuIconSrc": "transactions-menu.svg",
+                  "menuTranslationKey": "/player/transaction/transactions",
+                  "menuCTA": {
+                    "path": "/account/my-payments/transactions"
+                  }
+                }
+              ],
+              "group-3": [
+                {
+                  "menuName": "bankAccounts",
+                  "menuIconSrc": "bank-account-menu.svg",
+                  "menuTranslationKey": "/player/bankaccount/bank-accounts",
+                  "menuCTA": {
+                    "path": "/account/bank-accounts"
+                  }
+                },
+                {
+                  "menuName": "password",
+                  "menuIconSrc": "password-menu.svg",
+                  "menuTranslationKey": "/player/details/password",
+                  "menuCTA": {
+                    "path": "/account/password-reset"
+                  }
+                },
+                {
+                  "menuName": "accountDetails",
+                  "menuIconSrc": "account-details-menu.svg",
+                  "menuTranslationKey": "/player/details/account-details",
+                  "menuCTA": {
+                    "path": "/account/my-details"
+                  }
+                },
+                {
+                  "menuName": "verification",
+                  "menuIconSrc": "verification-menu.svg",
+                  "menuTranslationKey": "/player/details/verification",
+                  "menuCTA": {
+                    "path": "/account/verification"
+                  }
+                }
+              ],
+              "group-4": [
+                {
+                  "menuName": "messages",
+                  "menuIconSrc": "messages-menu.svg",
+                  "menuTranslationKey": "/player/messages/messages",
+                  "menuCTA": {
+                    "path": "/account/messages"
+                  }
+                },
+                {
+                  "menuName": "notifications",
+                  "menuIconSrc": "notifications-menu.svg",
+                  "menuTranslationKey": "/player/details/notifications",
+                  "menuCTA": {
+                    "path": "/account/notifications"
+                  }
+                },
+                {
+                  "menuName": "preferences",
+                  "menuIconSrc": "preferences-menu.svg",
+                  "menuTranslationKey": "/player/preferences/preferences",
+                  "menuCTA": {
+                    "path": "/account/preferences"
+                  }
+                },
+                {
+                  "menuName": "selfExclusion",
+                  "menuIconSrc": "self-exclusion-menu.svg",
+                  "menuTranslationKey": "/player/selflimits/self-limits",
+                  "menuCTA": {
+                    "path": "/account/self-exclusion"
+                  }
+                }
+              ],
+              "group-5": [
+                {
+                  "menuName": "feedback",
+                  "menuIconSrc": "feedback-menu.svg",
+                  "menuTranslationKey": "/common/header/feedback",
+                  "menuCTA": {
+                    "path": "/account/feedback"
+                  }
+                },
+                {
+                  "menuName": "getSupport",
+                  "menuIconSrc": "getsupport-menu.svg",
+                  "menuTranslationKey": "/common/header/get-support",
+                  "menuCTA": {
+                    "action": "openChat"
+                  }
+                }
+              ]
+            },
+            "DesktopProfileMenu": {
+              "group-1": [
+                {
+                  "menuName": "myBets",
+                  "menuIconSrc": "my-bets-menu.svg",
+                  "menuTranslationKey": "/betting/betslip/my-bets-title",
+                  "menuCTA": {
+                    "path": "/my-bets"
+                  }
+                },
+                {
+                  "menuName": "bonuses",
+                  "menuIconSrc": "bonuses-menu.svg",
+                  "menuTranslationKey": "/player/wallet/bonuses",
+                  "menuCTA": {
+                    "path": "/account/bonuses"
+                  }
+                },
+                {
+                  "menuName": "rebates",
+                  "menuIconSrc": "rebates-menu.svg",
+                  "menuTranslationKey": "/player/wallet/rebates",
+                  "menuCTA": {
+                    "path": "/account/rebates"
+                  }
+                },
+                {
+                  "menuName": "favouriteGames",
+                  "menuIconSrc": "favorite-games-menu.svg",
+                  "menuTranslationKey": "/betting/common/favourite-games-title",
+                  "menuCTA": {
+                    "path": "/account/casino-user-favorites"
+                  }
+                }
+              ],
+              "group-2": [
+                {
+                  "menuName": "messages",
+                  "menuIconSrc": "messages-menu.svg",
+                  "menuTranslationKey": "/player/messages/messages",
+                  "menuCTA": {
+                    "path": "/account/messages"
+                  }
+                },
+                {
+                  "menuName": "selfExclusion",
+                  "menuIconSrc": "self-exclusion-menu.svg",
+                  "menuTranslationKey": "/player/selflimits/self-limits",
+                  "menuCTA": {
+                    "path": "/account/self-exclusion"
+                  }
+                },
+                {
+                  "menuName": "accountDetails",
+                  "menuIconSrc": "account-details-menu.svg",
+                  "menuTranslationKey": "/common/header/profile",
+                  "menuCTA": {
+                    "path": "/account/my-details"
+                  }
+                },
+                {
+                  "menuName": "feedback",
+                  "menuIconSrc": "feedback-menu.svg",
+                  "menuTranslationKey": "/common/header/feedback",
+                  "menuCTA": {
+                    "path": "/account/feedback"
+                  }
+                },
+                {
+                  "menuName": "Get Support",
+                  "menuIconSrc": "getsupport-menu.svg",
+                  "menuTranslationKey": "/common/header/get-support",
+                  "menuCTA": {
+                    "action": "openChat"
+                  }
+                }
+              ]
+            }
+          },
+          "Layout_DisplayFooterLegalIcons": true,
+          "Layout_FixedHeaderPages": [
+            "",
+            "prematch",
+            "casino",
+            "live-casino",
+            "casino-games",
+            "promo"
+          ],
+          "Layout_LandingPageCategoriesAndOrder": {
+            "gameOfTheWeekCategory": 105,
+            "mostPopularCategory": 119,
+            "categories": [
+              {
+                "id": 129,
+                "type": "slots",
+                "isLive": false
+              },
+              {
+                "id": 120,
+                "type": "live-casino",
+                "isLive": true
+              },
+              {
+                "id": null,
+                "type": "sport-specials"
+              },
+              {
+                "id": null,
+                "type": "category",
+                "isLive": false
+              },
+              {
+                "id": null,
+                "type": "category",
+                "isLive": true
+              }
+            ]
+          },
+          "Layout_LiveFeedPlayerUseAlpha3": ["HRK", "EUR"],
+          "Layout_LoadMoreCasinoGames": true,
+          "Layout_MainMenuPositionNewLine": false,
+          "Layout_MobileMenuDrawerItems": {
+            "MobileProfileMenu": {
+              "group-1": [
+                {
+                  "menuName": "voucher",
+                  "menuIconSrc": "voucher-menu.svg",
+                  "menuTranslationKey": "/player/wallet/voucher",
+                  "menuVisibility": "loggedIn",
+                  "menuCTA": {
+                    "path": "/account/voucher"
+                  }
+                },
+                {
+                  "menuName": "bankAccounts",
+                  "menuIconSrc": "bank-account-menu.svg",
+                  "menuTranslationKey": "/player/bankaccount/bank-accounts",
+                  "menuVisibility": "loggedIn",
+                  "menuCTA": {
+                    "path": "/account/bank-accounts"
+                  }
+                },
+                {
+                  "menuName": "transactions",
+                  "menuIconSrc": "transactions-menu.svg",
+                  "menuTranslationKey": "/player/transaction/transactions",
+                  "menuVisibility": "loggedIn",
+                  "menuCTA": {
+                    "path": "/account/my-payments/transactions"
+                  }
+                }
+              ],
+              "group-2": [
+                {
+                  "menuName": "accountDetails",
+                  "menuIconSrc": "account-details-menu.svg",
+                  "menuTranslationKey": "/player/details/account-details",
+                  "menuVisibility": "loggedIn",
+                  "menuCTA": {
+                    "path": "/account/my-details"
+                  }
+                },
+                {
+                  "menuName": "password",
+                  "menuIconSrc": "password-menu.svg",
+                  "menuTranslationKey": "/player/details/password",
+                  "menuVisibility": "loggedIn",
+                  "menuCTA": {
+                    "path": "/account/password-reset"
+                  }
+                },
+                {
+                  "menuName": "verification",
+                  "menuIconSrc": "verification-menu.svg",
+                  "menuTranslationKey": "/player/details/verification",
+                  "menuVisibility": "loggedIn",
+                  "menuCTA": {
+                    "path": "/account/verification"
+                  }
+                },
+                {
+                  "menuName": "selfExclusion",
+                  "menuIconSrc": "self-exclusion-menu.svg",
+                  "menuTranslationKey": "/player/selflimits/self-exclusion",
+                  "menuVisibility": "loggedIn",
+                  "menuCTA": {
+                    "path": "/account/self-exclusion"
+                  }
+                }
+              ],
+              "group-3": [
+                {
+                  "menuName": "messages",
+                  "menuIconSrc": "messages-menu.svg",
+                  "menuTranslationKey": "/player/messages/messages",
+                  "menuVisibility": "loggedIn",
+                  "menuCTA": {
+                    "path": "/account/messages"
+                  }
+                },
+                {
+                  "menuName": "preferences",
+                  "menuIconSrc": "preferences-menu.svg",
+                  "menuTranslationKey": "/player/preferences/preferences",
+                  "menuVisibility": "loggedIn",
+                  "menuCTA": {
+                    "path": "/account/preferences"
+                  }
+                }
+              ]
+            },
+            "MobileFooterMenu": {
+              "group-1": [
+                {
+                  "menuName": "myBets",
+                  "menuIconSrc": "my-bets-menu.svg",
+                  "menuTranslationKey": "/betting/betslip/my-bets-title",
+                  "menuVisibility": "loggedIn",
+                  "menuCTA": {
+                    "path": "/my-bets"
+                  }
+                },
+                {
+                  "menuName": "rebates",
+                  "menuIconSrc": "rebates-menu.svg",
+                  "menuTranslationKey": "/player/wallet/rebates",
+                  "menuVisibility": "loggedIn",
+                  "menuCTA": {
+                    "path": "/account/rebates"
+                  }
+                },
+                {
+                  "menuName": "bonuses",
+                  "menuIconSrc": "bonuses-menu.svg",
+                  "menuTranslationKey": "/player/wallet/bonuses",
+                  "menuVisibility": "loggedIn",
+                  "menuCTA": {
+                    "path": "/account/bonuses"
+                  }
+                },
+                {
+                  "menuName": "favouriteGames",
+                  "menuIconSrc": "favorite-games-menu.svg",
+                  "menuTranslationKey": "/betting/common/favourite-games-title",
+                  "menuVisibility": "loggedIn",
+                  "menuCTA": {
+                    "path": "/account/casino-user-favorites"
+                  }
+                }
+              ],
+              "group-2": [
+                {
+                  "menuName": "liveCasino",
+                  "menuIconSrc": "live-casino-menu.svg",
+                  "menuTranslationKey": "/common/header/live-casino",
+                  "menuVisibility": "loggedOut",
+                  "menuCTA": {
+                    "path": "/live-casino"
+                  }
+                },
+                {
+                  "menuName": "slots",
+                  "menuIconSrc": "slots-menu.svg",
+                  "menuTranslationKey": "/common/header/slots-casino",
+                  "menuVisibility": "loggedOut",
+                  "menuCTA": {
+                    "path": "/slots"
+                  }
+                },
+                {
+                  "menuName": "liveSports",
+                  "menuIconSrc": "live-menu.svg",
+                  "menuTranslationKey": "/common/header/live-sports",
+                  "menuVisibility": "loggedOut",
+                  "menuCTA": {
+                    "path": "/live"
+                  }
+                },
+                {
+                  "menuName": "prematch",
+                  "menuIconSrc": "prematch-menu.svg",
+                  "menuTranslationKey": "/common/header/prematch-sports",
+                  "menuVisibility": "loggedOut",
+                  "menuCTA": {
+                    "path": "/prematch"
+                  }
+                }
+              ],
+              "group-3": [
+                {
+                  "menuName": "promo",
+                  "menuIconSrc": "promo-menu.svg",
+                  "menuTranslationKey": "/common/header/promotions",
+                  "menuVisibility": "loggedIn",
+                  "menuCTA": {
+                    "path": "/promo"
+                  }
+                },
+                {
+                  "menuName": "affiliate",
+                  "menuIconSrc": "affiliate-menu.svg",
+                  "menuTranslationKey": "/common/header/refer-a-friend",
+                  "menuVisibility": "loggedIn",
+                  "menuCTA": {
+                    "path": "/refer-a-friend"
+                  }
+                },
+                {
+                  "menuName": "vip",
+                  "menuIconSrc": "vip-menu.svg",
+                  "menuTranslationKey": "/common/header/vip-club",
+                  "menuVisibility": "loggedIn",
+                  "menuCTA": {
+                    "path": "/account/vip"
+                  }
+                }
+              ],
+              "group-4": [
+                {
+                  "menuName": "notifications",
+                  "menuIconSrc": "notifications-menu.svg",
+                  "menuTranslationKey": "/player/details/notifications",
+                  "menuVisibility": "loggedIn",
+                  "menuCTA": {
+                    "path": "/account/notifications"
+                  }
+                },
+                {
+                  "menuName": "feedback",
+                  "menuIconSrc": "feedback-menu.svg",
+                  "menuTranslationKey": "/common/header/feedback",
+                  "menuVisibility": "loggedIn",
+                  "menuCTA": {
+                    "path": "/account/feedback"
+                  }
+                },
+                {
+                  "menuName": "getSupport",
+                  "menuIconSrc": "getsupport-menu.svg",
+                  "menuTranslationKey": "/common/header/get-support",
+                  "menuVisibility": "loggedIn",
+                  "menuCTA": {
+                    "action": "openChat"
+                  }
+                }
+              ]
+            }
+          },
+          "Layout_RedirectHome_Desktop": "",
+          "Layout_RedirectHome_Mobile": "",
+          "Layout_RedirectLandingPageTo": "",
+          "Layout_RedirectLandingPageToPrematch": false,
+          "Layout_ShowCasinoFilterAndSort": false,
+          "Layout_ShowCasinoNavigation": true,
+          "Layout_ShowFooter": true,
+          "Layout_ShowHeaderFullLoginForm": false,
+          "Layout_ShowHeaderSearchBar": false,
+          "Layout_ShowHomeBanners_Desktop": true,
+          "Layout_ShowHomeBanners_Mobile": true,
+          "Layout_ShowImportantCompetition": {
+            "competitionId": 1855,
+            "backgroundImagePathDesktop": "/euro-2024-desktop",
+            "backgroundImagePathMobile": "/euro-2024-mobile",
+            "iconPath": "/euro-2024-icon.svg",
+            "translationKey": "/betting/common/euro-2024",
+            "countdownTranslationKey": "/betting/common/euro-2024",
+            "countdownGameDays": 1,
+            "path": "/euro-2024",
+            "showInNavigation": true,
+            "showInSportsTabs": true,
+            "showCountdownHeadline": true,
+            "categories": [
+              {
+                "competitionId": 1855,
+                "translationKey": "/betting/common/matches",
+                "path": "/euro-2024",
+                "showDates": true
+              },
+              {
+                "competitionId": 17391,
+                "gameIds": [23527382, 24856746, 24856747, 24938640],
+                "outrightMarketTypes": [
+                  "Winner",
+                  "ToReachTheFinal",
+                  "ToReachSemi-Final",
+                  "SpecialsTotal"
+                ],
+                "translationKey": "/betting/common/outright",
+                "path": "/euro-2024/outright",
+                "isOutright": true
+              },
+              {
+                "competitionId": 18278328,
+                "translationKey": "/betting/common/matchday-statistics",
+                "path": "/euro-2024/matchday-statistics"
+              }
+            ]
+          },
+          "Layout_ShowLessCasinoGamesOnInitialRender": false,
+          "Layout_ShowMobileLandingPage": false,
+          "Layout_ShowOddsFormatInsideBetslip": false,
+          "Layout_ShowPeriodicRebates": true,
+          "Layout_ShowPeriodicRebatesForCurrencies": {
+            "currencies": ["SGD", "MYR"]
+          },
+          "Layout_ShowPredictor": true,
+          "Layout_ShowPredictorForCurrenciesOrAreas": {
+            "currencies": ["SGD", "MYR", "AUD", "EUR", "USD", "IDR"],
+            "areas": [
+              "AF",
+              "AL",
+              "DZ",
+              "AS",
+              "AD",
+              "AO",
+              "AI",
+              "AQ",
+              "AG",
+              "AR",
+              "AM",
+              "AW",
+              "AU",
+              "AT",
+              "AZ",
+              "BS",
+              "BH",
+              "BD",
+              "BB",
+              "BY",
+              "BE",
+              "BZ",
+              "BJ",
+              "BM",
+              "BT",
+              "BO",
+              "BA",
+              "BW",
+              "BV",
+              "BR",
+              "IO",
+              "BN",
+              "BG",
+              "BF",
+              "BI",
+              "CV",
+              "KH",
+              "CM",
+              "CA",
+              "KY",
+              "CF",
+              "TD",
+              "CL",
+              "CN",
+              "CX",
+              "CC",
+              "CO",
+              "KM",
+              "CG",
+              "CD",
+              "CK",
+              "CR",
+              "CI",
+              "HR",
+              "CU",
+              "CY",
+              "CZ",
+              "DK",
+              "DJ",
+              "DM",
+              "DO",
+              "EC",
+              "EG",
+              "SV",
+              "GQ",
+              "ER",
+              "EE",
+              "SZ",
+              "ET",
+              "FK",
+              "FO",
+              "FJ",
+              "FI",
+              "FR",
+              "GF",
+              "PF",
+              "TF",
+              "GA",
+              "GM",
+              "GE",
+              "DE",
+              "GH",
+              "GI",
+              "GR",
+              "GL",
+              "GD",
+              "GP",
+              "GU",
+              "GT",
+              "GN",
+              "GW",
+              "GY",
+              "HT",
+              "HM",
+              "HN",
+              "HK",
+              "HU",
+              "IS",
+              "IN",
+              "ID",
+              "IR",
+              "IQ",
+              "IE",
+              "IL",
+              "IT",
+              "JM",
+              "JP",
+              "JO",
+              "KZ",
+              "KE",
+              "KI",
+              "KP",
+              "KR",
+              "KW",
+              "KG",
+              "LA",
+              "LV",
+              "LB",
+              "LS",
+              "LR",
+              "LY",
+              "LI",
+              "LT",
+              "LU",
+              "MO",
+              "MK",
+              "MG",
+              "MW",
+              "MY",
+              "MV",
+              "ML",
+              "MT",
+              "MH",
+              "MQ",
+              "MR",
+              "MU",
+              "YT",
+              "MX",
+              "FM",
+              "MD",
+              "MC",
+              "MN",
+              "ME",
+              "MS",
+              "MA",
+              "MZ",
+              "MM",
+              "NA",
+              "NR",
+              "NP",
+              "NL",
+              "AN",
+              "NC",
+              "NZ",
+              "NI",
+              "NE",
+              "NG",
+              "NU",
+              "NF",
+              "MP",
+              "NO",
+              "OM",
+              "PK",
+              "PW",
+              "PS",
+              "PA",
+              "PG",
+              "PY",
+              "PE",
+              "PH",
+              "PN",
+              "PL",
+              "PT",
+              "PR",
+              "QA",
+              "RE",
+              "RO",
+              "RU",
+              "RW",
+              "BL",
+              "SH",
+              "KN",
+              "LC",
+              "MF",
+              "PM",
+              "VC",
+              "WS",
+              "SM",
+              "ST",
+              "SA",
+              "SN",
+              "RS",
+              "SC",
+              "SL",
+              "SG",
+              "SK",
+              "SI",
+              "SB",
+              "SO",
+              "ZA",
+              "GS",
+              "ES",
+              "LK",
+              "SD",
+              "SR",
+              "SJ",
+              "SE",
+              "CH",
+              "SY",
+              "TW",
+              "TJ",
+              "TZ",
+              "TH",
+              "TL",
+              "TG",
+              "TK",
+              "TO",
+              "TT",
+              "TN",
+              "TR",
+              "TM",
+              "TC",
+              "TV",
+              "UG",
+              "UA",
+              "AE",
+              "GB",
+              "US",
+              "UM",
+              "UY",
+              "UZ",
+              "VU",
+              "VA",
+              "VE",
+              "VN",
+              "VG",
+              "VI",
+              "WF",
+              "EH",
+              "YE",
+              "ZM",
+              "ZW"
+            ]
+          },
+          "Layout_ShowRebates": true,
+          "Layout_ShowRecentWinners_Desktop": true,
+          "Layout_ShowRecentWinners_Mobile": false,
+          "Layout_ShowRecentWithdraw_Desktop": true,
+          "Layout_ShowRecentWithdraw_Mobile": false,
+          "Layout_ShowRescueRebates": true,
+          "Layout_ShowWatchers": false,
+          "Layout_UsePaymentRebates": true,
+          "Layout_vipCountries": ["AT", "MY", "SG", "RS", "LK"],
+          "Main_AffiliateContactEmail": null,
+          "Main_AffiliateMerchantKey": "MkStageGemBet",
+          "Main_AffiliateShareLinks": {},
+          "Main_AffiliateSystemId": null,
+          "Main_AffiliateUrl": "https://api-pub.stg.notsogb.com/affiliate/pub",
+          "Main_AgentsPlayerDomainset": null,
+          "Main_AgentsPlayerWebpage": null,
+          "Main_asianVeiwCountries": null,
+          "Main_AvailableCurrencies": ["EUR"],
+          "Main_Betconstruct_CgPartnerId": null,
+          "Main_Betconstruct_PartnerId": 1358,
+          "Main_Betconstruct_StreamPartnerId": 1589,
+          "Main_Bonuses_HideClaimablePayin": false,
+          "Main_Bonuses_RescueIds": [],
+          "Main_BrowserTitle": "Vyking",
+          "Main_Captcha_Turnstile_Login": false,
+          "Main_Captcha_Turnstile_Signup": false,
+          "Main_Captcha_Turnstile_SiteKey": null,
+          "Main_CasinoGameFullScreenUserAgents": [],
+          "Main_content_areas": {
+            "eu": {
+              "type": "exclude",
+              "areas": ["DE"]
+            }
+          },
+          "Main_CurrencyAreas": [
+            {
+              "currency": "USD",
+              "country": ["BR"]
+            },
+            {
+              "currency": "EUR",
+              "country": ["CZ", "DE", "DN", "FI"]
+            },
+            {
+              "currency": "MYR",
+              "country": ["MY"]
+            },
+            {
+              "currency": "SGD",
+              "country": ["SG"]
+            },
+            {
+              "currency": "AUD",
+              "country": ["AU"]
+            }
+          ],
+          "Main_dissableInit3Translation": true,
+          "Main_DynamicDom": [
+            {
+              "name": "turnstileTarget",
+              "target": "body",
+              "tag": "div",
+              "innerHTML": "<div id=turnstilTarget></div>"
+            },
+            {
+              "name": "hellis",
+              "target": "head",
+              "tag": "script",
+              "innerHTML": "console.log('geht doch'); function onloadTurnstileCallback(){ console.log('turnstile callback happend'); }"
+            },
+            {
+              "name": "turnstile",
+              "target": "head",
+              "tag": "script",
+              "src": "https://challenges.cloudflare.com/turnstile/v0/api.js?onload=onloadTurnstileCallback"
+            },
+            {
+              "name": "liveScoreWidgetTarget",
+              "target": "body",
+              "tag": "div",
+              "innerHTML": "<div id=\"DOM_element_id_in_your_website_1668087788785\"></div>"
+            }
+          ],
+          "Main_EnableEmailVerification": false,
+          "Main_FeedbackCategories": [
+            {
+              "value": "Game selection",
+              "label": "/player/feedback/game-selection"
+            },
+            {
+              "value": "Website and use",
+              "label": "/player/feedback/website-and-use"
+            },
+            {
+              "value": "Payment and Withdrawal",
+              "label": "/player/feedback/payment-and-withdrawal"
+            },
+            {
+              "value": "Bonuses and Promotions",
+              "label": "/player/feedback/bonuses-and-promotions"
+            },
+            {
+              "value": "Security and Fairness",
+              "label": "/player/feedback/security-and-fairness"
+            },
+            {
+              "value": "Overall Satisfaction",
+              "label": "/player/feedback/overall-satisfaction"
+            },
+            {
+              "value": "Bug report",
+              "label": "/player/feedback/bug-report"
+            }
+          ],
+          "Main_FileUpload_MaxFileSize": 10,
+          "Main_FooterLicences": {},
+          "Main_FooterPaymentMethods": null,
+          "Main_FooterSocialMedia": {
+            "enabled": true,
+            "telegram": {
+              "icon_name": "telegram-icon",
+              "title": "Telegram",
+              "redirect_url": "https://vyking.com"
+            },
+            "twitter": {
+              "icon_name": "x-icon",
+              "title": "Twitter",
+              "redirect_url": "https://vyking.com"
+            },
+            "facebook": {
+              "icon_name": "facebook-icon",
+              "title": "Facebook",
+              "redirect_url": "https://vyking.com"
+            },
+            "instagram": {
+              "icon_name": "instagram-icon",
+              "title": "Instagram",
+              "redirect_url": "https://vyking.com"
+            },
+            "youtube": {
+              "icon_name": "youtube-icon",
+              "title": "Youtube",
+              "redirect_url": "https://vyking.com"
+            },
+            "tiktok": {
+              "icon_name": "tiktok-icon",
+              "title": "TikTok",
+              "redirect_url": "https://vyking.com"
+            }
+          },
+          "Main_forceEmailValidationFilter": null,
+          "Main_GuestChangeUsernamePrefix": "player:",
+          "Main_hasBankVerification": null,
+          "Main_hideLostPassword": null,
+          "Main_InitialRenderCasinoCategory": "",
+          "Main_Language_Default": "eng",
+          "Main_Login_Use2FA": false,
+          "Main_Login_UseMagicLink": false,
+          "Main_Login_UsePwd": false,
+          "Main_MaintenanceBell": {
+            "SGD": {
+              "active": false,
+              "endDateTime": "2024-03-25 16:30:00"
+            },
+            "MYR": {
+              "active": false,
+              "endDateTime": "2024-03-25 16:30:00"
+            },
+            "IDR": {
+              "active": false,
+              "endDateTime": "2024-03-25 16:30:00"
+            },
+            "EUR": {
+              "active": false,
+              "endDateTime": "2024-03-25 16:30:00"
+            }
+          },
+          "Main_MenuItems": [
+            {
+              "name": "prematch",
+              "translation": "/common/header/prematch-sports",
+              "path": "/prematch",
+              "maintenanceMode": false,
+              "mobileIcon": "sports.svg",
+              "hideForNotLogged": false
+            },
+            {
+              "name": "live",
+              "translation": "/common/header/live-sports",
+              "path": "/live",
+              "maintenanceMode": false,
+              "mobileIcon": "live-menu.svg",
+              "hideForNotLogged": false
+            },
+            {
+              "name": "casino",
+              "translation": "/common/header/slots-casino",
+              "path": "/slots",
+              "mobileIcon": "casino.svg",
+              "hideForNotLogged": false
+            },
+            {
+              "name": "live-casino",
+              "translation": "/common/header/live-casino",
+              "path": "/live-casino",
+              "mobileIcon": "live-casino-menu.svg",
+              "hideForNotLogged": false
+            },
+            {
+              "name": "promo",
+              "translation": "/common/header/promotions",
+              "path": "/promo",
+              "mobileIcon": "promo-menu-icon.svg",
+              "hideForNotLogged": false
+            },
+            {
+              "name": "vip",
+              "translation": "/common/header/vip-club",
+              "path": "/vip",
+              "mobileIcon": "vip-menu-icon.svg",
+              "hideForNotLogged": false
+            },
+            {
+              "name": "affiliate",
+              "translation": "/common/header/refer-a-friend",
+              "path": "/refer-a-friend",
+              "mobileIcon": "affiliate-menu-icon.svg",
+              "hideForNotLogged": true
+            }
+          ],
+          "Main_MenuItemsOrder": [
+            "prematch",
+            "live",
+            "casino",
+            "live-casino",
+            "promo",
+            "vip",
+            "affiliate"
+          ],
+          "Main_MetamaskLogin": "none",
+          "Main_MyAffiliatesBrandname": null,
+          "Main_PlayerDefaultRegisterFlags": [
+            "Playable",
+            "Accessible",
+            "SmsSubscribed",
+            "EmailSubscribedCrm",
+            "EmailSubscribedNewsletter",
+            "TelephoneSubscribed",
+            "ShowPreDepositDialog",
+            "ShowPreWithdrawDialog"
+          ],
+          "Main_PlayerRegistration_DefaultsPerCountry": {
+            "SG": {
+              "preselected_currency": "EUR",
+              "currencies": ["SGD", "MYR", "IDR", "EUR"]
+            },
+            "OTHER_EU": {
+              "preselected_currency": "EUR",
+              "currencies": ["EUR"]
+            },
+            "MY": {
+              "preselected_currency": "EUR",
+              "currencies": ["MYR", "SGD", "IDR", "EUR"]
+            },
+            "ID": {
+              "preselected_currency": "EUR",
+              "currencies": ["MYR", "SGD", "IDR", "EUR"]
+            },
+            "AU": {
+              "preselected_currency": "EUR",
+              "currencies": ["AUD", "EUR"]
+            },
+            "NZ": {
+              "preselected_currency": "EUR",
+              "currencies": ["AUD", "EUR"]
+            },
+            "OTHER": {
+              "preselected_currency": "EUR",
+              "currencies": ["USD", "EUR"]
+            }
+          },
+          "Main_PopupCloseOnClick": true,
+          "Main_PopupCloseTime": 8,
+          "Main_PopupPosition": "bottom-right",
+          "Main_PreDepositDialogConfig": ["cFirstName", "cPhone1"],
+          "Main_Prematch_LeftMenu_SeparateEsports": false,
+          "Main_Prematch_Table_GamesLength": 6,
+          "Main_Prematch_Table_SportsLength": 6,
+          "Main_PreWithdrawDialogConfig": ["cPhone1", "dBirthday"],
+          "Main_ProfileDetails": {
+            "cFirstName": {
+              "readOnly": true,
+              "required": true
+            },
+            "cLastName": {
+              "readOnly": true,
+              "required": true
+            },
+            "cEmail": {
+              "readOnly": false,
+              "required": true
+            },
+            "dBirthday": {
+              "readOnly": true,
+              "required": true
+            },
+            "cGender": {
+              "readOnly": true,
+              "required": true
+            },
+            "cCountry": {
+              "readOnly": true,
+              "required": true
+            },
+            "cPhone1": {
+              "readOnly": false,
+              "required": true
+            }
+          },
+          "Main_referAFriendCountries": ["sg"],
+          "Main_RegistrationConfig": [
+            [
+              "cEmail",
+              "cScreenname",
+              "cPassword",
+              "cCurrency",
+              "agree",
+              "affiliateCode"
+            ]
+          ],
+          "Main_RegistrationPromoCodes": [],
+          "Main_RegistrationRestrictedCountries": [
+            "AL",
+            "BA",
+            "HR",
+            "MK",
+            "MD",
+            "RU",
+            "KZ",
+            "KG",
+            "SY",
+            "CD",
+            "CG",
+            "CI",
+            "AF",
+            "VE",
+            "GN",
+            "WS",
+            "FM",
+            "AM",
+            "AO",
+            "AW",
+            "BF",
+            "KR",
+            "BG",
+            "BI",
+            "BJ",
+            "BY",
+            "BZ",
+            "BQ",
+            "CF",
+            "CV",
+            "CW",
+            "DZ",
+            "EE",
+            "EG",
+            "ER",
+            "ET",
+            "ES",
+            "FJ",
+            "FR",
+            "GA",
+            "GB",
+            "GD",
+            "GE",
+            "GM",
+            "GW",
+            "HN",
+            "HT",
+            "KI",
+            "LR",
+            "LT",
+            "LV",
+            "LY",
+            "MA",
+            "MG",
+            "MH",
+            "ML",
+            "MF",
+            "MR",
+            "MV",
+            "MT",
+            "MW",
+            "MZ",
+            "NE",
+            "NI",
+            "NR",
+            "NL",
+            "PL",
+            "PW",
+            "RO",
+            "SB",
+            "SC",
+            "SL",
+            "SO",
+            "SS",
+            "ST",
+            "SV",
+            "TD",
+            "TG",
+            "TJ",
+            "TM",
+            "TR",
+            "TV",
+            "UA",
+            "UG",
+            "US",
+            "UZ",
+            "VU",
+            "WS",
+            "YE",
+            "ZM",
+            "CY",
+            "BB",
+            "KH",
+            "KY",
+            "JM",
+            "JO",
+            "MM",
+            "PK",
+            "PA",
+            "PH",
+            "SN",
+            "ZW",
+            "CN",
+            "KP",
+            "IR",
+            "IQ",
+            "LB",
+            "ME",
+            "SD",
+            "TN",
+            "DE",
+            "AS",
+            "AD",
+            "AG",
+            "AR",
+            "AZ",
+            "BS",
+            "BH",
+            "BD",
+            "BE",
+            "BM",
+            "BT",
+            "BO",
+            "BW",
+            "BR",
+            "VG",
+            "BN",
+            "CA",
+            "CM",
+            "CL",
+            "CO",
+            "KM",
+            "CK",
+            "CR",
+            "CU",
+            "CZ",
+            "DK",
+            "DJ",
+            "DM",
+            "DO",
+            "EC",
+            "GQ",
+            "FO",
+            "FI",
+            "GH",
+            "GR",
+            "GU",
+            "GT",
+            "GY",
+            "HK",
+            "HU",
+            "IS",
+            "IN",
+            "IE",
+            "IL",
+            "IT",
+            "JP",
+            "KE",
+            "KW",
+            "LA",
+            "LS",
+            "LI",
+            "LU",
+            "MU",
+            "MX",
+            "MC",
+            "MN",
+            "NA",
+            "NP",
+            "NZ",
+            "NG",
+            "NO",
+            "OM",
+            "PS",
+            "PG",
+            "PY",
+            "PE",
+            "PT",
+            "PR",
+            "QA",
+            "ZA",
+            "RW",
+            "KN",
+            "LC",
+            "VC",
+            "SM",
+            "SA",
+            "SK",
+            "LK",
+            "SZ",
+            "SE",
+            "CH",
+            "TW",
+            "TZ",
+            "TH",
+            "TL",
+            "TO",
+            "TT",
+            "AE",
+            "VI",
+            "UY",
+            "VN"
+          ],
+          "Main_RequireEmailValidation": false,
+          "Main_RescueRebateConfig": {
+            "start": "2024-02-04T09:00:00",
+            "totalperiodlength": 604800,
+            "availableduration": 86400,
+            "currencyallowed": ["EUR"]
+          },
+          "Main_RestrictedCountries": null,
+          "Main_RestrictedRegistrationButton": [],
+          "Main_RestrictedSiteAreas": {
+            "Regular": {
+              "exclude": ["/bonus", "/promo"],
+              "currencies": ["IDR"]
+            },
+            "Agentplayer": {
+              "exclude": [
+                "/bonus",
+                "/promo",
+                "/deposit",
+                "/withdraw",
+                "/account/bonuses",
+                "/account/voucher"
+              ]
+            },
+            "loggedOut": {
+              "AT": {
+                "exclude": []
+              }
+            }
+          },
+          "Main_SbMaxWinEnforce": false,
+          "Main_Selfexclusion_Autoexpire": false,
+          "Main_Selfexclusion_Blocklogin": false,
+          "Main_Selfexclusion_Periods": {
+            "one-day": 24,
+            "one-week": 168
+          },
+          "Main_Selfexclusion_PeriodsProduct": {
+            "three-days": 72,
+            "two-weeks": 336,
+            "one-month": 720,
+            "three-months": 2160,
+            "six-months": 4320
+          },
+          "Main_Selfexclusion_PeriodsTimeOut": {
+            "one-day": 24,
+            "one-week": 168,
+            "two-week": 336,
+            "one-month": 720,
+            "three-months": 2160
+          },
+          "Main_ShowAccountPages": {
+            "myBets": true,
+            "favouriteGames": true,
+            "wallet": true,
+            "voucher": true,
+            "bonuses": true,
+            "verification": true,
+            "password": true,
+            "selfExclusion": true,
+            "notifications": true,
+            "profits": true,
+            "transactions": true,
+            "messages": true,
+            "preferences": true,
+            "accountDetails": true,
+            "rebates": true,
+            "feedback": true
+          },
+          "Main_ShowAvailableBoni": null,
+          "Main_ShowBonuses": true,
+          "Main_ShowCasinoCategoryTitle": true,
+          "Main_ShowCasinoDemoMode": true,
+          "Main_ShowCasinoFavGames": null,
+          "Main_ShowCasinoRecGames": null,
+          "Main_ShowCuracaoLicence": {},
+          "Main_ShowCurrencySymbol": true,
+          "Main_ShowDepositReminderPopUp": true,
+          "Main_ShowHomeMenu": true,
+          "Main_ShowNewMessage": false,
+          "Main_ShowNewPayment": false,
+          "Main_ShowNewPromotionPage": false,
+          "Main_ShowNoFirstDepositMarker": true,
+          "Main_ShowPrematchLive": true,
+          "Main_ShowPrematchTop": true,
+          "Main_ShowPrematchUpcoming": true,
+          "Main_ShowProfileDocuments": true,
+          "Main_ShowProfileReports": true,
+          "Main_ShowProfileSelfLimits": true,
+          "Main_ShowQRCodeLogin": false,
+          "Main_ShowRegisterButtons": true,
+          "Main_ShowRegisterScreenname": null,
+          "Main_ShowUpgradeAccountReminderPopUp": true,
+          "Main_ShowUserSettings": false,
+          "Main_ShowWelcomePage": false,
+          "Main_ShowWhatsAppPopUp": false,
+          "Main_SignUpBanner": {
+            "countryMap": {
+              "alpha3-currencyCode": ["sgp", "mal", "alpha2-country-code"],
+              "myr": ["my"],
+              "eur": ["at", "de"]
+            },
+            "languageMap": {
+              "en": {
+                "default": "/bin_images/signup_background_image",
+                "sgd": "/bin_images/signup_background_image-sgd-en",
+                "myr": "/bin_images/signup_background_image-myr"
+              }
+            }
+          },
+          "Main_SpecificCountriesRegistrationSettings": [],
+          "Main_StyleMode": "light",
+          "Main_UniquePhoneNb": true,
+          "Main_Url_CasinoCategory": "%WEBCLIENT%/index.php?r=category/res&id=%ID%",
+          "Main_Url_Content": "https://content-demo.vyking.com",
+          "Main_Url_EMailForgotPassword": "",
+          "Main_Url_Kpi": null,
+          "Main_Url_PlayerAvatarView": "",
+          "Main_Url_ProfileAvatarUpload": "",
+          "Main_Url_ProfileDocumentUpload": "",
+          "Main_Url_ProfileDocumentView": null,
+          "Main_Url_SwarmWebSocket": "wss://eu-swarm-ws-re.deimosphobos.net/",
+          "Main_Url_WebClient": "https://web-client-demo.vyking.com",
+          "Main_vipCurrencies": ["EUR"],
+          "Main_VipSystemEnabled": true,
+          "Main_vipTableCountries": ["sg", "my"],
+          "Main_vipTableGrades": [
+            "classic",
+            "bronze",
+            "silver",
+            "gold",
+            "platinum",
+            "diamond"
+          ],
+          "Messages_ShowMessages": true,
+          "Messages_Url_PlayerMessage": "",
+          "Messages_Url_PlayerMessages": "",
+          "Messages_Url_PlayerSupport": "",
+          "Messages_Url_PlayerTicket": "",
+          "MoneyTypes_Deposit": [
+            {
+              "id": 1001,
+              "name": "VISA"
+            },
+            {
+              "id": 1002,
+              "name": "MASTERCARD"
+            },
+            {
+              "id": 1003,
+              "name": "CHEQUE"
+            },
+            {
+              "id": 1005,
+              "name": "WIRE"
+            },
+            {
+              "id": 1006,
+              "name": "NETELLER"
+            },
+            {
+              "id": 1007,
+              "name": "VOLT"
+            },
+            {
+              "id": 1008,
+              "name": "SKRILL"
+            },
+            {
+              "id": 1009,
+              "name": "PAYSAFECARD"
+            },
+            {
+              "id": 1010,
+              "name": "ECOCARD"
+            },
+            {
+              "id": 1011,
+              "name": "EPASSPORTE"
+            },
+            {
+              "id": 1014,
+              "name": "DIRECTCASH"
+            },
+            {
+              "id": 1015,
+              "name": "CLICKANDBUY"
+            },
+            {
+              "id": 1016,
+              "name": "UKASH"
+            },
+            {
+              "id": 1017,
+              "name": "WEBMONEY"
+            },
+            {
+              "id": 1019,
+              "name": "PAYPAL"
+            },
+            {
+              "id": 1021,
+              "name": "TOGGLECARD"
+            },
+            {
+              "id": 1022,
+              "name": "WESTERNUNION"
+            },
+            {
+              "id": 1023,
+              "name": "PAYGEA"
+            },
+            {
+              "id": 1024,
+              "name": "PIC"
+            },
+            {
+              "id": 1025,
+              "name": "ENVOY"
+            },
+            {
+              "id": 1026,
+              "name": "CLICK2PAY"
+            },
+            {
+              "id": 1027,
+              "name": "MOBILE"
+            },
+            {
+              "id": 1028,
+              "name": "INTERFACE RM"
+            },
+            {
+              "id": 1029,
+              "name": "MAESTRO"
+            },
+            {
+              "id": 1030,
+              "name": "DINERS"
+            },
+            {
+              "id": 1031,
+              "name": "AMERICANEXPRESS"
+            },
+            {
+              "id": 1033,
+              "name": "MONETA"
+            },
+            {
+              "id": 1034,
+              "name": "CTOPAY"
+            },
+            {
+              "id": 1035,
+              "name": "PAYBOX"
+            },
+            {
+              "id": 1036,
+              "name": "TESTER"
+            },
+            {
+              "id": 1037,
+              "name": "POKERWALLET"
+            },
+            {
+              "id": 1038,
+              "name": "SOFORTUEBERWEISUNG"
+            },
+            {
+              "id": 1039,
+              "name": "PRIVATETELLER"
+            },
+            {
+              "id": 1040,
+              "name": "PAYVISION"
+            },
+            {
+              "id": 1041,
+              "name": "ETRADE"
+            },
+            {
+              "id": 1042,
+              "name": "WEBBILLING"
+            },
+            {
+              "id": 1043,
+              "name": "JCB"
+            },
+            {
+              "id": 1044,
+              "name": "INTERFACE PP PM"
+            },
+            {
+              "id": 1045,
+              "name": "INTERFACE PM"
+            },
+            {
+              "id": 1046,
+              "name": "INTERFACE PP RM"
+            },
+            {
+              "id": 1047,
+              "name": "2POKER"
+            },
+            {
+              "id": 1048,
+              "name": "MYPAYLINQ"
+            },
+            {
+              "id": 1049,
+              "name": "EWALLETXPRESS"
+            },
+            {
+              "id": 1050,
+              "name": "USEMYWALLET"
+            },
+            {
+              "id": 1051,
+              "name": "PACNETSERVICES"
+            },
+            {
+              "id": 1052,
+              "name": "CASINO ARCADE MEDIALIVE OLD"
+            },
+            {
+              "id": 1053,
+              "name": "CASINO ARCADE WIREX OLD"
+            },
+            {
+              "id": 1054,
+              "name": "DINEROMAIL"
+            },
+            {
+              "id": 1055,
+              "name": "PREPAIDCODE"
+            },
+            {
+              "id": 1056,
+              "name": "MONEYLINEWALLET"
+            },
+            {
+              "id": 1059,
+              "name": "CCMISC"
+            },
+            {
+              "id": 1060,
+              "name": "CEPBANK"
+            },
+            {
+              "id": 1061,
+              "name": "APCO"
+            },
+            {
+              "id": 1062,
+              "name": "DEVCODE"
+            },
+            {
+              "id": 1066,
+              "name": "PEAKWALLET"
+            },
+            {
+              "id": 1072,
+              "name": "A1WORLD"
+            },
+            {
+              "id": 1081,
+              "name": "VISA-EMP"
+            },
+            {
+              "id": 1082,
+              "name": "MASTERCARD-EMP"
+            },
+            {
+              "id": 1083,
+              "name": "DINERS EMP"
+            },
+            {
+              "id": 1084,
+              "name": "MAESTRO-EMP"
+            },
+            {
+              "id": 1085,
+              "name": "QUICKBIT"
+            },
+            {
+              "id": 1086,
+              "name": "CASH2CODE"
+            },
+            {
+              "id": 1087,
+              "name": "MUCHBETTER"
+            },
+            {
+              "id": 1088,
+              "name": "SUREPAY"
+            },
+            {
+              "id": 1089,
+              "name": "VISA-REALDEPOSITS"
+            },
+            {
+              "id": 1090,
+              "name": "COINSPAID"
+            },
+            {
+              "id": 1091,
+              "name": "EZEEWALLET"
+            },
+            {
+              "id": 1092,
+              "name": "PAYNOW"
+            },
+            {
+              "id": 1093,
+              "name": "EMERCHANTPAY"
+            },
+            {
+              "id": 1094,
+              "name": "UTORG"
+            },
+            {
+              "id": 1095,
+              "name": "ONRAMPER"
+            },
+            {
+              "id": 1096,
+              "name": "VOUCHER"
+            },
+            {
+              "id": 1097,
+              "name": "B2BINPAY"
+            },
+            {
+              "id": 1098,
+              "name": "TRUEPAY"
+            },
+            {
+              "id": 1099,
+              "name": "K1NGPAY"
+            },
+            {
+              "id": 1100,
+              "name": "EWIRE"
+            },
+            {
+              "id": 1101,
+              "name": "LUXONPAY"
+            },
+            {
+              "id": 1102,
+              "name": "BANKWIRE UMBRELLA"
+            },
+            {
+              "id": 1103,
+              "name": "COMMUNITY BANKING"
+            },
+            {
+              "id": 1104,
+              "name": "CLOUDCASH"
+            },
+            {
+              "id": 1105,
+              "name": "D24"
+            },
+            {
+              "id": 1106,
+              "name": "K1NGPAY_2"
+            }
+          ],
+          "MoneyTypes_Withdraw": [
+            {
+              "id": 2001,
+              "name": "VISA"
+            },
+            {
+              "id": 2002,
+              "name": "MASTERCARD"
+            },
+            {
+              "id": 2003,
+              "name": "CHEQUE"
+            },
+            {
+              "id": 2005,
+              "name": "WIRE"
+            },
+            {
+              "id": 2006,
+              "name": "NETELLER"
+            },
+            {
+              "id": 2007,
+              "name": "VOLT"
+            },
+            {
+              "id": 2008,
+              "name": "SKRILL"
+            },
+            {
+              "id": 2009,
+              "name": "PAYSAFECARD"
+            },
+            {
+              "id": 2010,
+              "name": "ECOCARD"
+            },
+            {
+              "id": 2011,
+              "name": "EPASSPORTE"
+            },
+            {
+              "id": 2014,
+              "name": "DIRECTCASH"
+            },
+            {
+              "id": 2015,
+              "name": "CLICKANDBUY"
+            },
+            {
+              "id": 2016,
+              "name": "UKASH"
+            },
+            {
+              "id": 2017,
+              "name": "WEBMONEY"
+            },
+            {
+              "id": 2019,
+              "name": "PAYPAL"
+            },
+            {
+              "id": 2021,
+              "name": "TOGGLECARD"
+            },
+            {
+              "id": 2022,
+              "name": "WESTERNUNION"
+            },
+            {
+              "id": 2023,
+              "name": "PAYGEA"
+            },
+            {
+              "id": 2024,
+              "name": "PIC"
+            },
+            {
+              "id": 2025,
+              "name": "ENVOY"
+            },
+            {
+              "id": 2026,
+              "name": "CLICK2PAY"
+            },
+            {
+              "id": 2027,
+              "name": "MOBILE"
+            },
+            {
+              "id": 2028,
+              "name": "INTERFACE RM"
+            },
+            {
+              "id": 2029,
+              "name": "MAESTRO"
+            },
+            {
+              "id": 2030,
+              "name": "DINERS"
+            },
+            {
+              "id": 2031,
+              "name": "AMERICANEXPRESS"
+            },
+            {
+              "id": 2033,
+              "name": "MONETA"
+            },
+            {
+              "id": 2034,
+              "name": "CTOPAY"
+            },
+            {
+              "id": 2035,
+              "name": "PAYBOX"
+            },
+            {
+              "id": 2036,
+              "name": "TESTER"
+            },
+            {
+              "id": 2037,
+              "name": "POKERWALLET"
+            },
+            {
+              "id": 2038,
+              "name": "SOFORTUEBERWEISUNG"
+            },
+            {
+              "id": 2039,
+              "name": "PRIVATETELLER"
+            },
+            {
+              "id": 2040,
+              "name": "PAYVISION"
+            },
+            {
+              "id": 2041,
+              "name": "ETRADE"
+            },
+            {
+              "id": 2042,
+              "name": "WEBBILLING"
+            },
+            {
+              "id": 2043,
+              "name": "JCB"
+            },
+            {
+              "id": 2044,
+              "name": "INTERFACE PP PM"
+            },
+            {
+              "id": 2045,
+              "name": "INTERFACE PM"
+            },
+            {
+              "id": 2046,
+              "name": "INTERFACE PP RM"
+            },
+            {
+              "id": 2047,
+              "name": "2POKER"
+            },
+            {
+              "id": 2048,
+              "name": "MYPAYLINQ"
+            },
+            {
+              "id": 2049,
+              "name": "EWALLETXPRESS"
+            },
+            {
+              "id": 2050,
+              "name": "USEMYWALLET"
+            },
+            {
+              "id": 2051,
+              "name": "PACNETSERVICES"
+            },
+            {
+              "id": 2052,
+              "name": "CASINO ARCADE MEDIALIVE OLD"
+            },
+            {
+              "id": 2053,
+              "name": "CASINO ARCADE WIREX OLD"
+            },
+            {
+              "id": 2054,
+              "name": "DINEROMAIL"
+            },
+            {
+              "id": 2055,
+              "name": "PREPAIDCODE"
+            },
+            {
+              "id": 2056,
+              "name": "MONEYLINEWALLET"
+            },
+            {
+              "id": 2059,
+              "name": "CCMISC"
+            },
+            {
+              "id": 2060,
+              "name": "CEPBANK"
+            },
+            {
+              "id": 2061,
+              "name": "APCO"
+            },
+            {
+              "id": 2062,
+              "name": "DEVCODE"
+            },
+            {
+              "id": 2066,
+              "name": "PEAKWALLET"
+            },
+            {
+              "id": 2085,
+              "name": "QUICKBIT"
+            },
+            {
+              "id": 2086,
+              "name": "CASH2CODE"
+            },
+            {
+              "id": 2087,
+              "name": "MUCHBETTER"
+            },
+            {
+              "id": 2088,
+              "name": "SUREPAY"
+            },
+            {
+              "id": 2089,
+              "name": "VISA-REALDEPOSITS"
+            },
+            {
+              "id": 2090,
+              "name": "COINSPAID"
+            },
+            {
+              "id": 2091,
+              "name": "EZEEWALLET"
+            },
+            {
+              "id": 2092,
+              "name": "PAYNOW"
+            },
+            {
+              "id": 2093,
+              "name": "EMERCHANTPAY"
+            },
+            {
+              "id": 2094,
+              "name": "UTORG"
+            },
+            {
+              "id": 2095,
+              "name": "ONRAMPER"
+            },
+            {
+              "id": 2096,
+              "name": "VOUCHER"
+            },
+            {
+              "id": 2097,
+              "name": "B2BINPAY"
+            },
+            {
+              "id": 2098,
+              "name": "TRUEPAY"
+            },
+            {
+              "id": 2099,
+              "name": "K1NGPAY"
+            },
+            {
+              "id": 2100,
+              "name": "EWIRE"
+            },
+            {
+              "id": 2101,
+              "name": "LUXONPAY"
+            },
+            {
+              "id": 2102,
+              "name": "BANKWIRE UMBRELLA"
+            },
+            {
+              "id": 2103,
+              "name": "COMMUNITY BANKING"
+            },
+            {
+              "id": 2104,
+              "name": "CLOUDCASH"
+            },
+            {
+              "id": 2105,
+              "name": "D24"
+            },
+            {
+              "id": 2106,
+              "name": "K1NGPAY_2"
+            }
+          ],
+          "Payment_BankAccountAvailability": [],
+          "Payment_BankCodeList": {},
+          "Payment_Banktransfer_Default": "iban",
+          "Payment_Banktransfer_ShowAccountNumber": false,
+          "Payment_Banktransfer_ShowIBAN": true,
+          "Payment_Cashier_PreselectedChannel": null,
+          "Payment_CheckVoucherWithdrawVerifiedBankAccount": null,
+          "Payment_ImagesInFooter": [
+            "VISA",
+            "MASTER-CARD",
+            "PAYSAFECARD",
+            "BANK-TRANSFER",
+            "NETELLER",
+            "SKRILL"
+          ],
+          "Payment_PaynowPopup": null,
+          "Payment_ShortcutChannel_Limit": {
+            "DuitNow": {
+              "min": 1000,
+              "max": 5000
+            },
+            "TouchNGo": {
+              "min": 2000,
+              "max": 6000
+            }
+          },
+          "Payment_ShowDevCode": false,
+          "Payment_ShowPayments": true,
+          "Payment_TruePay_BankMaintenance": {
+            "DuitNow": "status-here",
+            "TouchNGo": "status-here",
+            "sample1": "disabled",
+            "sample2": "maintenance"
+          },
+          "Payment_Url_Deposit": "",
+          "Payment_Url_Withdraw": "",
+          "Payment_WithdrawBankLimit": {
+            "TNGQR": {
+              "min": 5000,
+              "max": 500000
+            }
+          },
+          "Payment_WithdrawIsBlockedByToRequirement": false,
+          "Seal_ShowFakeSeal": false,
+          "Seal_UID": "",
+          "Seal_Url_FakeSeal": null,
+          "Seal_Url_Seal": "",
+          "WEBSITE_AFF_EMAIL": null,
+          "WEBSITE_CASHIER_EMAIL": "variable_string",
+          "WEBSITE_CASINO_TERMS_CHECKDATE": null,
+          "WEBSITE_MARKETING_EMAIL": "variable_string",
+          "WEBSITE_NEWSLETTER_EMAIL": null,
+          "WEBSITE_OPERATION_EMAIL": "variable_string",
+          "WEBSITE_SUPPORT_EMAIL": "variable_string",
+          "WEBSITE_TOURNAMENT_EMAIL": "variable_string",
+          "Main_Language_Available": {
+            "eng": {
+              "full": "English",
+              "alpha2": "EN",
+              "alpha3": "eng",
+              "country": "en_us"
+            }
+          }
+        },
+        "countryAlpha2": "RS",
+        "skin": {
+          "id": 1141,
+          "casinoId": 10
+        },
+        "token": "4157c7805fe0917d2047229c3e37326a",
+        "tokenExtra": null,
+        "tokenExpiresOn": 1720309794,
+        "tokenExpiresIn": 1800,
+        "language_alpha3": "eng",
+        "translation": [],
+        "player": null
+      }
+    },
+    {
+      "event": "/ie/casinoGames/jackpot/changed",
+      "status": 200,
+      "payload": {
+        "currency": "USD",
+        "details": []
+      }
+    },
+    {
+      "event": "/se/payment/withdraw/bigSub",
+      "status": 200,
+      "payload": [
+        {
+          "ts": "2024-03-01T12:14:15Z",
+          "withdraw": 7000,
+          "deposit": 2000,
+          "player": "****sTe**",
+          "currency": "EUR"
+        },
+        {
+          "ts": "2024-03-01T12:11:55Z",
+          "withdraw": 30000,
+          "deposit": 30000,
+          "player": "****_F**",
+          "currency": "EUR"
+        },
+        {
+          "ts": "2024-03-01T12:09:29Z",
+          "withdraw": 75000,
+          "deposit": 5000,
+          "player": "****twasc**",
+          "currency": "EUR"
+        },
+        {
+          "ts": "2024-03-01T11:29:37Z",
+          "withdraw": 203000,
+          "deposit": 5000,
+          "player": "****twasc**",
+          "currency": "EUR"
+        },
+        {
+          "ts": "2024-03-01T11:16:30Z",
+          "withdraw": 21000,
+          "deposit": 5000,
+          "player": "****twasc**",
+          "currency": "EUR"
+        },
+        {
+          "ts": "2024-03-01T10:38:53Z",
+          "withdraw": 5000,
+          "deposit": 3000,
+          "player": "****emov**",
+          "currency": "EUR"
+        },
+        {
+          "ts": "2024-03-01T10:38:07Z",
+          "withdraw": 50000,
+          "deposit": 5000,
+          "player": "****twasc**",
+          "currency": "EUR"
+        }
+      ]
+    },
+    {
+      "event": "/se/player/login",
+      "status": 200,
+      "payload": {
+        "iID": "2959",
+        "cScreenname": "vyking.test",
+        "cUsername": "vyking.test",
+        "cEmail": "vyking.test@vyking.com",
+        "cRegisterIp": "82.192.51.172",
+        "cDomain": "demo.vyking.com",
+        "cFirstName": "Petar",
+        "cLastName": null,
+        "dBirthday": "1994-03-02",
+        "cAddress": null,
+        "cCity": null,
+        "cZip": null,
+        "cCountry": "SI",
+        "cCountryAlpha2": "SI",
+        "cCountryAlpha3": "SVN",
+        "cCountryGeoIp": "SVN",
+        "cLanguage": "EN",
+        "cLanguageAlpha3": "eng",
+        "cGender": "male",
+        "cCurrency": "EUR",
+        "cPhone1": "+38169904151",
+        "cMessenger": null,
+        "cQuestion": null,
+        "cAnswer": null,
+        "cTrackingCode": null,
+        "iValidated": "0",
+        "iTrackedBy": null,
+        "cGroup": "D-Rating",
+        "cType": "Regular",
+        "cCustomInfo1": null,
+        "cCustomInfo2": null,
+        "cCustomInfo3": null,
+        "ValidationTime": null,
+        "LegitimationTime": null,
+        "RegistrationTime": "2024-04-30T13:48:19+00:00",
+        "AffiliateTime": null,
+        "HouseplayerTime": null,
+        "TermsAccepted": "2024-04-30 13:48:19",
+        "iNewsletter": "1",
+        "iPromotions": "1",
+        "iPostalMail": "0",
+        "aFlags": [
+          "Playable",
+          "Accessible",
+          "EmailSubscribedNewsletter",
+          "EmailSubscribedCrm",
+          "PushNotification",
+          "SmsSubscribed",
+          "TelephoneSubscribed"
+        ],
+        "AffId": null,
+        "AffNick": null,
+        "AffStructure": null,
+        "AffLevel": "1",
+        "AffTracked2Id": null,
+        "AffTracked2Nick": null,
+        "AffTracked2Structure": null,
+        "ExtInfo": [],
+        "AccountDetails": [
+          {
+            "iID": "17561741",
+            "iBalance": "0",
+            "cCurrency": "EUR",
+            "iType": "400",
+            "dLastUpdate": "2024-04-30 13:48:19"
+          }
+        ],
+        "settings": [
+          {
+            "key": "Account/CrossDomainsetLogin/Enable",
+            "value": null
+          },
+          {
+            "key": "Account/Upgrade/Enabled",
+            "value": null
+          },
+          {
+            "key": "Account/Upgrade/RemindMeAfter",
+            "value": null
+          },
+          {
+            "key": "Betslip/AcceptChangedOdds",
+            "value": null
+          },
+          {
+            "key": "Betslip/OddsDisplay",
+            "value": null
+          },
+          {
+            "key": "Bitcoin/WalletIds",
+            "value": null
+          },
+          {
+            "key": "Casinogame/Favorite",
+            "value": {}
+          },
+          {
+            "key": "Casinogame/RecentSearch",
+            "value": null
+          },
+          {
+            "key": "Casinogame/SkipMobileInfo",
+            "value": null
+          },
+          {
+            "key": "Messages/LastSeen",
+            "value": 1717106400
+          },
+          {
+            "key": "Payment/Bankaccount/Default",
+            "value": null
+          },
+          {
+            "key": "Payment/Deposit/ShowBonusOffers",
+            "value": null
+          },
+          {
+            "key": "Payment/Exclude/Deposit",
+            "value": null
+          },
+          {
+            "key": "Payment/Exclude/Withdraw",
+            "value": null
+          },
+          {
+            "key": "PopupMessages/LastSeen",
+            "value": 1714484899
+          },
+          {
+            "key": "Selfexclusion/EndDate",
+            "value": null
+          },
+          {
+            "key": "Selfexclusion/EndDate/CasinoLive",
+            "value": null
+          },
+          {
+            "key": "Selfexclusion/EndDate/CasinoSlot",
+            "value": null
+          },
+          {
+            "key": "Selfexclusion/EndDate/Sportsbetting",
+            "value": null
+          },
+          {
+            "key": "Selfexclusion/Timerange",
+            "value": null
+          },
+          {
+            "key": "SportsFavorite/Competition",
+            "value": {}
+          },
+          {
+            "key": "SportsFavorite/Game",
+            "value": {}
+          },
+          {
+            "key": "SportsFavorite/Pinned",
+            "value": {}
+          },
+          {
+            "key": "SportsPredictor/Enabled",
+            "value": null
+          },
+          {
+            "key": "Theme/Name",
+            "value": null
+          },
+          {
+            "key": "Theme/NewDesign",
+            "value": null
+          },
+          {
+            "key": "WhatsApp/SendPromo/Enabled",
+            "value": null
+          },
+          {
+            "key": "WhatsApp/SendPromo/MobileNo",
+            "value": null
+          },
+          {
+            "key": "WhatsApp/SendPromo/RemindMeAfter",
+            "value": null
+          }
+        ],
+        "newmessagecount": 0,
+        "popupmessages": [],
+        "cToken": "4157c7805fe0917d2047229c3e37326a",
+        "token": "4157c7805fe0917d2047229c3e37326a",
+        "jwt": "eyJhbGciOiJIUzI1NiJ9.eyJ0b2tlbiI6IjQxNTdjNzgwNWZlMDkxN2QyMDQ3MjI5YzNlMzczMjZhIn0.NFHZFdeFGjDS5GAOI92aUcGQI0ORo4yrpRgcji7m6TE",
+        "tokenExtra": "e58f9a1301b6e916fa9237b6f78d2561",
+        "tokenValidTill": 1720309871,
+        "tokenExpiresOn": 1720309871,
+        "tokenValidTillDiff": 1800,
+        "tokenExpiresIn": 1800
+      }
+    },
+    {
+      "event": "/ie/casinoGames/jackpot/changed",
+      "status": 200,
+      "payload": {
+        "currency": "EUR",
+        "details": []
+      }
+    }
+  ],
+  "payouts": [
+    {
+      "ts": "2024-03-01T12:14:15Z",
+      "withdraw": 7000,
+      "deposit": 2000,
+      "player": "****sTe**",
+      "currency": "EUR"
+    },
+    {
+      "ts": "2024-03-01T12:11:55Z",
+      "withdraw": 30000,
+      "deposit": 30000,
+      "player": "****_F**",
+      "currency": "EUR"
+    },
+    {
+      "ts": "2024-03-01T12:09:29Z",
+      "withdraw": 75000,
+      "deposit": 5000,
+      "player": "****twasc**",
+      "currency": "EUR"
+    },
+    {
+      "ts": "2024-03-01T11:29:37Z",
+      "withdraw": 203000,
+      "deposit": 5000,
+      "player": "****twasc**",
+      "currency": "EUR"
+    },
+    {
+      "ts": "2024-03-01T11:16:30Z",
+      "withdraw": 21000,
+      "deposit": 5000,
+      "player": "****twasc**",
+      "currency": "EUR"
+    },
+    {
+      "ts": "2024-03-01T10:38:53Z",
+      "withdraw": 5000,
+      "deposit": 3000,
+      "player": "****emov**",
+      "currency": "EUR"
+    },
+    {
+      "ts": "2024-03-01T10:38:07Z",
+      "withdraw": 50000,
+      "deposit": 5000,
+      "player": "****twasc**",
+      "currency": "EUR"
+    }
+  ],
+  "error": null,
+  "isModalOpen": false
+}

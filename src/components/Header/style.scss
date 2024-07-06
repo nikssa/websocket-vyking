@@ -19,12 +19,15 @@
     display: flex;
     align-items: center;
     .username {
+      display: -webkit-box;
+      line-height: 1.2;
       margin: 0 10px;
-      white-space: nowrap;
       overflow: hidden;
-      text-overflow: ellipsis;
       text-align: right;
       width: calc(100vw - 260px);
+      word-break: break-all;
+      -webkit-line-clamp: 1;
+      -webkit-box-orient: vertical;
 
       @media screen and (min-width: 576px) {
         width: auto;
