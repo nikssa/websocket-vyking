@@ -14,9 +14,6 @@ import './App.scss';
 function App() {
   const [isLoginModal, setIsLoginModal] = useState(true);
 
-  const reduxState = useSelector((state) => state.websocket);
-  console.log(reduxState);
-
   const { isModalOpen, error } = useSelector((state) => state.websocket);
   const dispatch = useDispatch();
   const websocketInstance = WebSocketService.getInstance(dispatch);
